@@ -1,17 +1,19 @@
 SAGP Reconciliation v0.1 Data Quality Report
 ============================================
-Raw records imported: 4800
-Normalized raw records: 4800
-Master person rows: 3221
-Possible duplicate review rows: 201
+SAGP-scope raw records kept: 3484
+Normalized SAGP-scope records: 3484
+contacts.csv rows excluded as non-SAGP: 1316
+Master person rows: 1915
+Possible duplicate review rows: 189
 
-Master rows missing primary email: 184
-Master rows missing institution: 3075
-Master rows missing display name: 47
+Master rows missing primary email: 164
+Master rows missing institution: 1782
+Master rows missing display name: 7
 
 Notes:
 - Original name fields are preserved separately from interpreted fields.
 - Membership codes are preserved as OriginalMembershipCode and are not interpreted.
+- contacts.csv is treated as a full personal Google Contacts export; rows are kept only if they mention SAGP or match a SAGP-source person by exact email/name.
 - Exact email duplicates are merged automatically.
 - Exact normalized name + institution duplicates are merged automatically.
 - Exact-name-only matches across separate PersonIDs are exported for human review.

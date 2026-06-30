@@ -1,20 +1,18 @@
-# SAGP Reconciliation v0.1
+# SAGP Reconciliation
 
-This is the first reproducible reconciliation pipeline for the SAGP contact/membership CSV exports.
+Reproducible reconciliation pipeline for messy SAGP contact/membership CSV exports.
 
-## What it does
+## Install
 
-1. Imports every CSV in `raw/`.
-2. Adds provenance: source file, source row, inferred region.
-3. Preserves original Google Contacts name fields.
-4. Creates interpreted clean fields: first, middle, last, display name, institution, email, etc.
-5. Extracts the mysterious SAGP membership code into `OriginalMembershipCode` without interpreting it.
-6. Automatically merges only conservative duplicates:
-   - exact email matches
-   - exact normalized name + institution matches
-7. Exports exact-name-only possible duplicates for human review.
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 ## Run
+
+Put the source CSV exports in `raw/`, then run:
 
 ```bash
 python build_sagp_database.py
@@ -22,15 +20,42 @@ python build_sagp_database.py
 
 Outputs are written to `output/`.
 
+## Important contacts.csv rule
+
+`contacts.csv` appears to be the outgoing officer's entire Google Contacts export, not a SAGP-only file. The pipeline therefore treats it differently from the SAGP-specific source files.
+
+Rows from `contacts.csv` are kept only if either:
+
+1. the raw contact row contains the text `SAGP` somewhere, or
+2. the contact row matches a person from a SAGP-specific source file by exact normalized email or exact normalized name.
+
+Rows from `contacts.csv` that fail this gate are written to `excluded_contacts.csv` and the `ExcludedContacts` workbook sheet for audit/recovery.
+
 ## Main outputs
 
-- `master_persons.csv`: one row per current inferred person
-- `raw_normalized.csv`: one row per original contact record, with parsed fields added
+- `SAGP_Reconciliation.xlsx`: review workbook with Report, Master, DuplicateReview, MergeLog, SourceSummary, CodeSummary, RawNormalized, and ExcludedContacts sheets
+- `master_persons.csv`: one row per current inferred SAGP-scope person
+- `raw_normalized.csv`: one row per retained original contact record, with parsed fields added
+- `excluded_contacts.csv`: contacts.csv rows excluded as likely non-SAGP personal contacts
 - `duplicate_review.csv`: probable duplicates needing human judgment
 - `merge_log.csv`: audit trail of automatically merged raw records
-- `source_summary.csv`: row counts by uploaded file
+- `source_summary.csv`: retained row counts by uploaded file
 - `code_summary.csv`: frequency table of preserved membership codes
 - `DataQualityReport.txt`: summary of current database health
+
+## What it does
+
+1. Imports every CSV in `raw/`.
+2. Adds provenance: source file, source row, inferred region.
+3. Applies the special `contacts.csv` SAGP-scope filter.
+4. Preserves original Google Contacts name fields.
+5. Creates interpreted clean fields: first, middle, last, display name, institution, email, etc.
+6. Extracts the mysterious SAGP membership code into `OriginalMembershipCode` without interpreting it.
+7. Automatically merges only conservative duplicates:
+   - exact email matches
+   - exact normalized name + institution matches
+8. Exports exact-name-only possible duplicates for human review.
+9. Generates a polished Excel workbook for review and handoff.
 
 ## Design principle
 

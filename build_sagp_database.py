@@ -2,9 +2,11 @@
 from pathlib import Path
 from sagp_tools.importer import import_raw
 from sagp_tools.normalize import normalize_all
+from sagp_tools.filtering import filter_contacts_scope
 from sagp_tools.deduplicate import build_master
 from sagp_tools.reports import source_summary, code_summary, data_quality_text
 from sagp_tools.io import write_csv
+from sagp_tools.excel_export import write_workbook
 
 RAW_DIR = Path("raw")
 OUTPUT_DIR = Path("output")
@@ -20,11 +22,13 @@ NORMALIZED_FIELDS = [
 MASTER_FIELDS = ["PersonID"] + NORMALIZED_FIELDS + ["MergedRecordCount", "MergeConfidence", "MergeReason", "AppearsIn", "CodeHistory"]
 REVIEW_FIELDS = ["ReviewGroup", "SuggestedReason", "SuggestedConfidence", "CurrentPersonID"] + NORMALIZED_FIELDS
 MERGE_FIELDS = ["PersonID", "RawRecordID", "Reason", "Confidence", "SourceFile", "SourceRow"]
+EXCLUDED_CONTACT_FIELDS = ["RawRecordID", "SourceFile", "SourceRow", "DisplayName", "PrimaryEmail", "Institution", "ExclusionReason"]
 
 
 def main():
-    raw_rows, raw_fields = import_raw(RAW_DIR)
-    normalized = normalize_all(raw_rows)
+    raw_rows_all, raw_fields = import_raw(RAW_DIR)
+    normalized_all = normalize_all(raw_rows_all)
+    raw_rows, normalized, excluded_contacts = filter_contacts_scope(raw_rows_all, normalized_all)
     master, duplicate_review, merge_log = build_master(normalized)
     OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -32,14 +36,39 @@ def main():
     write_csv(OUTPUT_DIR / "master_persons.csv", master, MASTER_FIELDS)
     write_csv(OUTPUT_DIR / "duplicate_review.csv", duplicate_review, REVIEW_FIELDS)
     write_csv(OUTPUT_DIR / "merge_log.csv", merge_log, MERGE_FIELDS)
-    write_csv(OUTPUT_DIR / "source_summary.csv", source_summary(raw_rows, normalized), ["SourceFile", "SourceRegion", "ImportedRows"])
-    write_csv(OUTPUT_DIR / "code_summary.csv", code_summary(normalized), ["OriginalMembershipCode", "RowCount"])
-    (OUTPUT_DIR / "DataQualityReport.txt").write_text(data_quality_text(raw_rows, normalized, master, duplicate_review), encoding="utf-8")
+    write_csv(OUTPUT_DIR / "excluded_contacts.csv", excluded_contacts, EXCLUDED_CONTACT_FIELDS)
+    source_rows = source_summary(raw_rows, normalized)
+    code_rows = code_summary(normalized)
+    report_text = data_quality_text(raw_rows, normalized, master, duplicate_review, excluded_contacts)
 
-    print(f"Imported {len(raw_rows)} raw rows")
+    write_csv(OUTPUT_DIR / "source_summary.csv", source_rows, ["SourceFile", "SourceRegion", "ImportedRows"])
+    write_csv(OUTPUT_DIR / "code_summary.csv", code_rows, ["OriginalMembershipCode", "RowCount"])
+    (OUTPUT_DIR / "DataQualityReport.txt").write_text(report_text, encoding="utf-8")
+
+    workbook_path = write_workbook(
+        OUTPUT_DIR / "SAGP_Reconciliation.xlsx",
+        master_rows=master,
+        normalized_rows=normalized,
+        duplicate_review_rows=duplicate_review,
+        merge_log_rows=merge_log,
+        source_summary_rows=source_rows,
+        code_summary_rows=code_rows,
+        report_text=report_text,
+        master_fields=MASTER_FIELDS,
+        normalized_fields=NORMALIZED_FIELDS,
+        review_fields=REVIEW_FIELDS,
+        merge_fields=MERGE_FIELDS,
+        excluded_contact_rows=excluded_contacts,
+        excluded_contact_fields=EXCLUDED_CONTACT_FIELDS,
+    )
+
+    print(f"Imported {len(raw_rows_all)} raw rows before contacts.csv SAGP-scope filter")
+    print(f"Kept {len(raw_rows)} SAGP-scope rows")
+    print(f"Excluded {len(excluded_contacts)} contacts.csv rows outside SAGP scope")
     print(f"Created {len(master)} master person rows")
     print(f"Flagged {len(duplicate_review)} rows for duplicate review")
     print(f"Wrote outputs to {OUTPUT_DIR}")
+    print(f"Wrote workbook to {workbook_path}")
 
 
 if __name__ == "__main__":

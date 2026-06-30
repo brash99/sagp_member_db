@@ -1,0 +1,17 @@
+SAGP Reconciliation v0.1 Data Quality Report
+============================================
+Raw records imported: 4800
+Normalized raw records: 4800
+Master person rows: 3221
+Possible duplicate review rows: 201
+
+Master rows missing primary email: 184
+Master rows missing institution: 3075
+Master rows missing display name: 47
+
+Notes:
+- Original name fields are preserved separately from interpreted fields.
+- Membership codes are preserved as OriginalMembershipCode and are not interpreted.
+- Exact email duplicates are merged automatically.
+- Exact normalized name + institution duplicates are merged automatically.
+- Exact-name-only matches across separate PersonIDs are exported for human review.

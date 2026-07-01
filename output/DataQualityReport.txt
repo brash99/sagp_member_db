@@ -1,13 +1,13 @@
 SAGP Reconciliation v0.5 Data Quality Report
 ============================================
-SAGP-scope raw records kept: 3990
-Normalized SAGP-scope records: 3990
-contacts.csv rows excluded as non-SAGP: 755
-Master person rows: 2329
+SAGP-scope raw records kept: 3473
+Normalized SAGP-scope records: 3473
+contacts.csv rows excluded as non-SAGP: 1316
+Master person rows: 1812
 Possible duplicate review rows: 0
 
-Master rows missing primary email: 87
-Master rows missing institution: 2198
+Master rows missing primary email: 75
+Master rows missing institution: 1679
 Master rows missing display name: 0
 
 Notes:

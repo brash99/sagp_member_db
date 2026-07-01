@@ -48,21 +48,5 @@ def normalize_row(row, raw_index):
         "NeedsReview": "",
     }
 
-
 def normalize_all(raw_rows):
-    normalized = []
-
-    for i, row in enumerate(raw_rows, start=1):
-        member = normalize_row(row, i)
-
-        # Skip non-member rows with no identifying name/code data.
-        if not any([
-            member.get("FirstName"),
-            member.get("LastName"),
-            member.get("OriginalMembershipCode"),
-        ]):
-            continue
-
-        normalized.append(member)
-
-    return normalized
+    return [normalize_row(row, i) for i, row in enumerate(raw_rows, start=1)]

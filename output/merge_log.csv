@@ -3000,9 +3000,9 @@ SAGP001342,RAW001634,multiple_reasons: exact_email; exact_name_only,100,SAGP Wor
 SAGP001342,RAW004773,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3138
 SAGP001343,RAW001636,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,89
 SAGP001343,RAW004791,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3156
-SAGP001497,RAW002123,exact_name_only_auto,82,contacts.csv,488
-SAGP001497,RAW002126,exact_name_only_auto,82,contacts.csv,491
-SAGP001890,RAW003449,exact_name_only_auto,82,contacts.csv,1814
-SAGP001890,RAW003911,exact_name_only_auto,82,contacts.csv,2276
-SAGP002026,RAW003876,exact_email,100,contacts.csv,2241
-SAGP002026,RAW003878,exact_email,100,contacts.csv,2243
+SAGP001481,RAW002614,exact_email,100,contacts.csv,979
+SAGP001481,RAW004472,exact_email,100,contacts.csv,2837
+SAGP001634,RAW003783,exact_email,100,contacts.csv,2148
+SAGP001634,RAW004480,exact_email,100,contacts.csv,2845
+SAGP001640,RAW003818,exact_email,100,contacts.csv,2183
+SAGP001640,RAW004723,exact_email,100,contacts.csv,3088

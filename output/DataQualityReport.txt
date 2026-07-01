@@ -6,7 +6,7 @@ contacts.csv rows excluded as non-SAGP: 1316
 Master person rows: 1812
 Possible duplicate review rows: 0
 
-Master rows missing primary email: 75
+Master rows missing primary email: 77
 Master rows missing institution: 1679
 Master rows missing display name: 0
 

@@ -35,6 +35,7 @@ REVIEW_FIELDS = ["ReviewGroup", "SuggestedReason", "SuggestedConfidence", "Curre
 MERGE_FIELDS = ["PersonID", "RawRecordID", "Reason", "Confidence", "SourceFile", "SourceRow"]
 EXCLUDED_CONTACT_FIELDS = ["RawRecordID", "SourceFile", "SourceRow", "DisplayName", "PrimaryEmail", "Institution", "ExclusionReason"]
 
+
 def has_member_identity(row):
     return any(
         str(row.get(field, "")).strip()
@@ -56,6 +57,7 @@ def drop_blank_member_identity_rows(raw_rows, normalized_rows):
 
     return kept_raw, kept_normalized, skipped
 
+
 def main():
     raw_rows_all, raw_fields = import_raw(RAW_DIR)
     normalized_all = normalize_all(raw_rows_all)
@@ -64,10 +66,6 @@ def main():
         raw_rows, normalized
     )
     master, duplicate_review, merge_log = build_master(normalized)
-    print(
-        f"Skipped {len(skipped_blank_members)} rows with no first name, "
-        f"last name, or membership code"
-    )
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     write_csv(OUTPUT_DIR / "raw_normalized.csv", normalized, NORMALIZED_FIELDS)
@@ -105,6 +103,10 @@ def main():
     print(f"Imported {len(raw_rows_all)} raw rows before contacts.csv SAGP-scope filter")
     print(f"Kept {len(raw_rows)} SAGP-scope rows")
     print(f"Excluded {len(excluded_contacts)} contacts.csv rows outside SAGP scope")
+    print(
+        f"Skipped {len(skipped_blank_members)} rows with no first name, "
+        f"last name, or membership code"
+    )
     print(f"Created {len(master)} master person rows")
     print(f"Flagged {len(duplicate_review)} rows for duplicate review")
     print(f"Wrote outputs to {OUTPUT_DIR}")

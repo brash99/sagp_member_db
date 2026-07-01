@@ -11,8 +11,8 @@ SAGP000004,RAW000004,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,5
 SAGP000004,RAW001982,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,347
 SAGP000005,RAW000005,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,6
 SAGP000005,RAW002062,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,427
-SAGP000006,RAW000006,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NJ.csv,7
-SAGP000006,RAW002200,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,565
+SAGP000006,RAW000006,exact_email,100,NJ.csv,7
+SAGP000006,RAW002200,exact_email,100,contacts.csv,565
 SAGP000007,RAW000007,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,8
 SAGP000007,RAW002210,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,575
 SAGP000008,RAW000008,exact_name_only_auto,82,NJ.csv,9
@@ -27,8 +27,8 @@ SAGP000012,RAW000012,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,1
 SAGP000012,RAW002617,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,982
 SAGP000013,RAW000013,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,14
 SAGP000013,RAW002718,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1083
-SAGP000014,RAW000014,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NJ.csv,15
-SAGP000014,RAW002768,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1133
+SAGP000014,RAW000014,exact_email,100,NJ.csv,15
+SAGP000014,RAW002768,exact_email,100,contacts.csv,1133
 SAGP000015,RAW000015,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,16
 SAGP000015,RAW002818,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1183
 SAGP000016,RAW000016,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,17
@@ -37,20 +37,20 @@ SAGP000017,RAW000017,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,1
 SAGP000017,RAW003073,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1438
 SAGP000018,RAW000018,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,19
 SAGP000018,RAW003212,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1577
-SAGP000019,RAW000019,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NJ.csv,20
-SAGP000019,RAW003234,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1599
-SAGP000020,RAW000020,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NJ.csv,21
-SAGP000020,RAW003299,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1664
+SAGP000019,RAW000019,exact_email,100,NJ.csv,20
+SAGP000019,RAW003234,exact_email,100,contacts.csv,1599
+SAGP000020,RAW000020,exact_email,100,NJ.csv,21
+SAGP000020,RAW003299,exact_email,100,contacts.csv,1664
 SAGP000021,RAW000021,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,22
 SAGP000021,RAW003355,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1720
-SAGP000022,RAW000022,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,23
-SAGP000022,RAW003394,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1759
-SAGP000023,RAW000023,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,24
-SAGP000023,RAW003424,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1789
+SAGP000022,RAW000022,exact_email,100,NJ.csv,23
+SAGP000022,RAW003394,exact_email,100,contacts.csv,1759
+SAGP000023,RAW000023,exact_email,100,NJ.csv,24
+SAGP000023,RAW003424,exact_email,100,contacts.csv,1789
 SAGP000024,RAW000024,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,25
 SAGP000024,RAW003573,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1938
-SAGP000025,RAW000025,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,26
-SAGP000025,RAW003629,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1994
+SAGP000025,RAW000025,exact_email,100,NJ.csv,26
+SAGP000025,RAW003629,exact_email,100,contacts.csv,1994
 SAGP000026,RAW000026,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,27
 SAGP000026,RAW003677,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2042
 SAGP000027,RAW000027,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,28
@@ -86,10 +86,10 @@ SAGP000041,RAW000041,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,4
 SAGP000041,RAW004661,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3026
 SAGP000042,RAW000042,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,43
 SAGP000042,RAW004677,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3042
-SAGP000043,RAW000043,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,44
-SAGP000043,RAW004701,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3066
-SAGP000044,RAW000044,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,45
-SAGP000044,RAW004734,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3099
+SAGP000043,RAW000043,exact_email,100,NJ.csv,44
+SAGP000043,RAW004701,exact_email,100,contacts.csv,3066
+SAGP000044,RAW000044,exact_email,100,NJ.csv,45
+SAGP000044,RAW004734,exact_email,100,contacts.csv,3099
 SAGP000045,RAW000045,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,46
 SAGP000045,RAW004751,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3116
 SAGP000046,RAW000046,multiple_reasons: exact_email; exact_name_only,100,NJ.csv,47
@@ -100,8 +100,8 @@ SAGP000048,RAW000048,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000048,RAW001661,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,26
 SAGP000049,RAW000050,exact_name_only_auto,82,NYD.csv,5
 SAGP000049,RAW001678,exact_name_only_auto,82,contacts.csv,43
-SAGP000050,RAW000051,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,6
-SAGP000050,RAW001710,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,75
+SAGP000050,RAW000051,exact_email,100,NYD.csv,6
+SAGP000050,RAW001710,exact_email,100,contacts.csv,75
 SAGP000051,RAW000052,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,7
 SAGP000051,RAW001733,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,98
 SAGP000052,RAW000053,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,8
@@ -113,8 +113,8 @@ SAGP000054,RAW000055,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000054,RAW001804,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,169
 SAGP000055,RAW000056,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,11
 SAGP000055,RAW001809,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,174
-SAGP000056,RAW000057,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,12
-SAGP000056,RAW001810,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,175
+SAGP000056,RAW000057,exact_email,100,NYD.csv,12
+SAGP000056,RAW001810,exact_email,100,contacts.csv,175
 SAGP000057,RAW000058,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,13
 SAGP000057,RAW001832,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,197
 SAGP000058,RAW000059,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,14
@@ -123,8 +123,8 @@ SAGP000059,RAW000060,exact_name_only_auto,82,NYD.csv,15
 SAGP000059,RAW001876,exact_name_only_auto,82,contacts.csv,241
 SAGP000060,RAW000061,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,16
 SAGP000060,RAW001877,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,242
-SAGP000061,RAW000062,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,17
-SAGP000061,RAW001928,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,293
+SAGP000061,RAW000062,exact_email,100,NYD.csv,17
+SAGP000061,RAW001928,exact_email,100,contacts.csv,293
 SAGP000062,RAW000063,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,18
 SAGP000062,RAW001946,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,311
 SAGP000063,RAW000064,exact_name_only_auto,82,NYD.csv,19
@@ -147,8 +147,8 @@ SAGP000071,RAW000072,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000071,RAW002121,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,486
 SAGP000072,RAW000073,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,28
 SAGP000072,RAW002145,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,510
-SAGP000073,RAW000074,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,29
-SAGP000073,RAW002199,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,564
+SAGP000073,RAW000074,exact_email,100,NYD.csv,29
+SAGP000073,RAW002199,exact_email,100,contacts.csv,564
 SAGP000074,RAW000075,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,30
 SAGP000074,RAW002257,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,622
 SAGP000075,RAW000076,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,31
@@ -167,8 +167,8 @@ SAGP000081,RAW000082,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000081,RAW002508,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,873
 SAGP000082,RAW000083,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,38
 SAGP000082,RAW002521,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,886
-SAGP000083,RAW000084,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYD.csv,39
-SAGP000083,RAW002583,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,948
+SAGP000083,RAW000084,exact_email,100,NYD.csv,39
+SAGP000083,RAW002583,exact_email,100,contacts.csv,948
 SAGP000084,RAW000085,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,40
 SAGP000084,RAW002621,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,986
 SAGP000085,RAW000086,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,41
@@ -179,14 +179,14 @@ SAGP000087,RAW000088,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000087,RAW002678,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1043
 SAGP000088,RAW000089,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,44
 SAGP000088,RAW002710,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1075
-SAGP000089,RAW000090,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,45
-SAGP000089,RAW002731,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1096
+SAGP000089,RAW000090,exact_email,100,NYD.csv,45
+SAGP000089,RAW002731,exact_email,100,contacts.csv,1096
 SAGP000090,RAW000091,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,46
 SAGP000090,RAW002732,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1097
 SAGP000091,RAW000092,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,47
 SAGP000091,RAW002736,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1101
-SAGP000092,RAW000093,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,48
-SAGP000092,RAW002778,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1143
+SAGP000092,RAW000093,exact_email,100,NYD.csv,48
+SAGP000092,RAW002778,exact_email,100,contacts.csv,1143
 SAGP000093,RAW000094,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,49
 SAGP000093,RAW000426,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,48
 SAGP000093,RAW002789,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1154
@@ -240,8 +240,8 @@ SAGP000117,RAW000118,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000117,RAW003290,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1655
 SAGP000118,RAW000119,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,74
 SAGP000118,RAW003352,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1717
-SAGP000119,RAW000120,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYD.csv,75
-SAGP000119,RAW003359,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1724
+SAGP000119,RAW000120,exact_email,100,NYD.csv,75
+SAGP000119,RAW003359,exact_email,100,contacts.csv,1724
 SAGP000120,RAW000121,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,76
 SAGP000120,RAW003378,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1743
 SAGP000121,RAW000122,exact_name_only_auto,82,NYD.csv,77
@@ -252,8 +252,8 @@ SAGP000123,RAW000124,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000123,RAW003461,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1826
 SAGP000124,RAW000125,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,80
 SAGP000124,RAW003537,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1902
-SAGP000125,RAW000126,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,81
-SAGP000125,RAW003599,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1964
+SAGP000125,RAW000126,exact_email,100,NYD.csv,81
+SAGP000125,RAW003599,exact_email,100,contacts.csv,1964
 SAGP000126,RAW000127,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,82
 SAGP000126,RAW003604,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1969
 SAGP000127,RAW000128,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,83
@@ -268,8 +268,8 @@ SAGP000131,RAW000132,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000131,RAW003686,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2051
 SAGP000132,RAW000133,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,88
 SAGP000132,RAW003687,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2052
-SAGP000133,RAW000134,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,89
-SAGP000133,RAW003701,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2066
+SAGP000133,RAW000134,exact_email,100,NYD.csv,89
+SAGP000133,RAW003701,exact_email,100,contacts.csv,2066
 SAGP000134,RAW000135,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,90
 SAGP000134,RAW000562,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,50
 SAGP000134,RAW001488,multiple_reasons: exact_email; exact_name_only,100,SAGP Two Paid.csv,12
@@ -286,8 +286,8 @@ SAGP000139,RAW000140,multiple_reasons: exact_email; exact_name_institution; exac
 SAGP000139,RAW003770,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2135
 SAGP000140,RAW000141,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,96
 SAGP000140,RAW003820,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2185
-SAGP000141,RAW000142,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,97
-SAGP000141,RAW003823,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2188
+SAGP000141,RAW000142,exact_email,100,NYD.csv,97
+SAGP000141,RAW003823,exact_email,100,contacts.csv,2188
 SAGP000142,RAW000143,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,98
 SAGP000142,RAW003836,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2201
 SAGP000143,RAW000144,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,99
@@ -321,8 +321,8 @@ SAGP000154,RAW000155,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,
 SAGP000154,RAW004083,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2448
 SAGP000155,RAW000156,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,111
 SAGP000155,RAW004130,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2495
-SAGP000156,RAW000158,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,113
-SAGP000156,RAW004149,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2514
+SAGP000156,RAW000158,exact_email,100,NYD.csv,113
+SAGP000156,RAW004149,exact_email,100,contacts.csv,2514
 SAGP000157,RAW000159,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,114
 SAGP000157,RAW004167,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2532
 SAGP000158,RAW000160,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,115
@@ -337,8 +337,8 @@ SAGP000161,RAW001079,exact_name_only_auto,82,SAGP 6.csv,79
 SAGP000161,RAW004272,exact_name_only_auto,82,contacts.csv,2637
 SAGP000162,RAW000164,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,119
 SAGP000162,RAW004273,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2638
-SAGP000163,RAW000165,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYD.csv,120
-SAGP000163,RAW004305,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2670
+SAGP000163,RAW000165,exact_email,100,NYD.csv,120
+SAGP000163,RAW004305,exact_email,100,contacts.csv,2670
 SAGP000164,RAW000166,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,121
 SAGP000164,RAW004312,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2677
 SAGP000165,RAW000167,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,122
@@ -390,16 +390,16 @@ SAGP000184,RAW004673,multiple_reasons: exact_email; exact_name_only,100,contacts
 SAGP000184,RAW004674,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3039
 SAGP000185,RAW000187,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,142
 SAGP000185,RAW004680,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3045
-SAGP000186,RAW000188,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYD.csv,143
-SAGP000186,RAW004689,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3054
+SAGP000186,RAW000188,exact_email,100,NYD.csv,143
+SAGP000186,RAW004689,exact_email,100,contacts.csv,3054
 SAGP000187,RAW000189,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,144
 SAGP000187,RAW004708,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3073
 SAGP000188,RAW000190,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,145
 SAGP000188,RAW004726,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3091
 SAGP000189,RAW000191,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,146
 SAGP000189,RAW004732,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3097
-SAGP000190,RAW000192,multiple_reasons: exact_email; exact_name_only,100,NYD.csv,147
-SAGP000190,RAW004780,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3145
+SAGP000190,RAW000192,exact_email,100,NYD.csv,147
+SAGP000190,RAW004780,exact_email,100,contacts.csv,3145
 SAGP000191,RAW000193,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,2
 SAGP000191,RAW001698,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,63
 SAGP000192,RAW000194,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,3
@@ -425,8 +425,8 @@ SAGP000201,RAW000204,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,
 SAGP000201,RAW002112,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,477
 SAGP000202,RAW000205,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,14
 SAGP000202,RAW002143,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,508
-SAGP000203,RAW000206,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,15
-SAGP000203,RAW002146,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,511
+SAGP000203,RAW000206,exact_email,100,NYU.csv,15
+SAGP000203,RAW002146,exact_email,100,contacts.csv,511
 SAGP000204,RAW000207,exact_name_only_auto,82,NYU.csv,16
 SAGP000204,RAW002209,exact_name_only_auto,82,contacts.csv,574
 SAGP000205,RAW000208,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,17
@@ -441,8 +441,8 @@ SAGP000209,RAW000212,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,
 SAGP000209,RAW002425,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,790
 SAGP000210,RAW000213,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,22
 SAGP000210,RAW002450,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,815
-SAGP000211,RAW000214,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,23
-SAGP000211,RAW002456,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,821
+SAGP000211,RAW000214,exact_email,100,NYU.csv,23
+SAGP000211,RAW002456,exact_email,100,contacts.csv,821
 SAGP000212,RAW000215,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,24
 SAGP000212,RAW002464,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,829
 SAGP000213,RAW000216,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,25
@@ -451,8 +451,8 @@ SAGP000214,RAW000217,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,
 SAGP000214,RAW002562,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,927
 SAGP000215,RAW000218,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,27
 SAGP000215,RAW002575,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,940
-SAGP000216,RAW000219,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYU.csv,28
-SAGP000216,RAW002605,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,970
+SAGP000216,RAW000219,exact_email,100,NYU.csv,28
+SAGP000216,RAW002605,exact_email,100,contacts.csv,970
 SAGP000217,RAW000220,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,29
 SAGP000217,RAW002650,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1015
 SAGP000218,RAW000221,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,30
@@ -472,10 +472,12 @@ SAGP000224,RAW003241,multiple_reasons: exact_email; exact_name_only,100,contacts
 SAGP000225,RAW000228,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,37
 SAGP000225,RAW003257,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1622
 SAGP000226,RAW000229,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,38
+SAGP000226,RAW001520,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,24
+SAGP000226,RAW003366,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1731
 SAGP000226,RAW003367,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1732
-SAGP000227,RAW000230,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYU.csv,39
-SAGP000227,RAW003419,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1784
-SAGP000227,RAW003420,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1785
+SAGP000227,RAW000230,exact_email,100,NYU.csv,39
+SAGP000227,RAW003419,exact_email,100,contacts.csv,1784
+SAGP000227,RAW003420,exact_email,100,contacts.csv,1785
 SAGP000228,RAW000231,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,40
 SAGP000228,RAW003466,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1831
 SAGP000229,RAW000232,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,41
@@ -486,8 +488,8 @@ SAGP000231,RAW000234,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,
 SAGP000231,RAW003713,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2078
 SAGP000232,RAW000235,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,44
 SAGP000232,RAW003759,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2124
-SAGP000233,RAW000236,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,45
-SAGP000233,RAW003795,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2160
+SAGP000233,RAW000236,exact_email,100,NYU.csv,45
+SAGP000233,RAW003795,exact_email,100,contacts.csv,2160
 SAGP000234,RAW000237,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,46
 SAGP000234,RAW003842,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2207
 SAGP000235,RAW000238,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,47
@@ -508,8 +510,8 @@ SAGP000242,RAW000246,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,
 SAGP000242,RAW004025,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2390
 SAGP000243,RAW000247,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,56
 SAGP000243,RAW004044,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2409
-SAGP000244,RAW000248,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,57
-SAGP000244,RAW004073,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2438
+SAGP000244,RAW000248,exact_email,100,NYU.csv,57
+SAGP000244,RAW004073,exact_email,100,contacts.csv,2438
 SAGP000245,RAW000249,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,58
 SAGP000245,RAW004112,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2477
 SAGP000246,RAW000250,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,59
@@ -563,10 +565,10 @@ SAGP000268,RAW000272,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,
 SAGP000268,RAW004782,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3147
 SAGP000269,RAW000273,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,82
 SAGP000269,RAW004783,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3148
-SAGP000270,RAW000274,multiple_reasons: exact_email; exact_name_only,100,NYU.csv,83
-SAGP000270,RAW004785,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3150
-SAGP000271,RAW000275,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,NYU.csv,84
-SAGP000271,RAW004788,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3153
+SAGP000270,RAW000274,exact_email,100,NYU.csv,83
+SAGP000270,RAW004785,exact_email,100,contacts.csv,3150
+SAGP000271,RAW000275,exact_email,100,NYU.csv,84
+SAGP000271,RAW004788,exact_email,100,contacts.csv,3153
 SAGP000272,RAW000276,multiple_reasons: exact_email; exact_name_only,100,PA.csv,2
 SAGP000272,RAW001709,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,74
 SAGP000273,RAW000277,multiple_reasons: exact_email; exact_name_only,100,PA.csv,3
@@ -606,8 +608,8 @@ SAGP000288,RAW000292,multiple_reasons: exact_email; exact_name_only,100,PA.csv,1
 SAGP000288,RAW002205,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,570
 SAGP000289,RAW000293,multiple_reasons: exact_email; exact_name_only,100,PA.csv,19
 SAGP000289,RAW002262,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,627
-SAGP000290,RAW000294,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,PA.csv,20
-SAGP000290,RAW002268,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,633
+SAGP000290,RAW000294,exact_email,100,PA.csv,20
+SAGP000290,RAW002268,exact_email,100,contacts.csv,633
 SAGP000291,RAW000295,multiple_reasons: exact_email; exact_name_only,100,PA.csv,21
 SAGP000291,RAW002334,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,699
 SAGP000292,RAW000296,multiple_reasons: exact_email; exact_name_only,100,PA.csv,22
@@ -615,8 +617,8 @@ SAGP000292,RAW002399,multiple_reasons: exact_email; exact_name_only,100,contacts
 SAGP000293,RAW000297,multiple_reasons: exact_email; exact_name_only,100,PA.csv,23
 SAGP000293,RAW001197,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,10
 SAGP000293,RAW002441,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,806
-SAGP000294,RAW000298,multiple_reasons: exact_email; exact_name_only,100,PA.csv,24
-SAGP000294,RAW002560,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,925
+SAGP000294,RAW000298,exact_email,100,PA.csv,24
+SAGP000294,RAW002560,exact_email,100,contacts.csv,925
 SAGP000295,RAW000299,multiple_reasons: exact_email; exact_name_only,100,PA.csv,25
 SAGP000295,RAW002587,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,952
 SAGP000296,RAW000300,multiple_reasons: exact_email; exact_name_only,100,PA.csv,26
@@ -638,8 +640,8 @@ SAGP000303,RAW000307,exact_name_only_auto,82,PA.csv,33
 SAGP000303,RAW002762,exact_name_only_auto,82,contacts.csv,1127
 SAGP000304,RAW000308,multiple_reasons: exact_email; exact_name_only,100,PA.csv,34
 SAGP000304,RAW002767,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1132
-SAGP000305,RAW000309,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,PA.csv,35
-SAGP000305,RAW002785,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1150
+SAGP000305,RAW000309,exact_email,100,PA.csv,35
+SAGP000305,RAW002785,exact_email,100,contacts.csv,1150
 SAGP000306,RAW000310,multiple_reasons: exact_email; exact_name_only,100,PA.csv,36
 SAGP000306,RAW002796,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1161
 SAGP000307,RAW000311,multiple_reasons: exact_email; exact_name_only,100,PA.csv,37
@@ -681,10 +683,10 @@ SAGP000324,RAW000328,multiple_reasons: exact_email; exact_name_only,100,PA.csv,5
 SAGP000324,RAW003354,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1719
 SAGP000325,RAW000329,multiple_reasons: exact_email; exact_name_only,100,PA.csv,55
 SAGP000325,RAW003387,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1752
-SAGP000326,RAW000330,multiple_reasons: exact_email; exact_name_only,100,PA.csv,56
-SAGP000326,RAW003441,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1806
-SAGP000327,RAW000331,multiple_reasons: exact_email; exact_name_only,100,PA.csv,57
-SAGP000327,RAW003465,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1830
+SAGP000326,RAW000330,exact_email,100,PA.csv,56
+SAGP000326,RAW003441,exact_email,100,contacts.csv,1806
+SAGP000327,RAW000331,exact_email,100,PA.csv,57
+SAGP000327,RAW003465,exact_email,100,contacts.csv,1830
 SAGP000328,RAW000332,multiple_reasons: exact_email; exact_name_only,100,PA.csv,58
 SAGP000328,RAW000908,multiple_reasons: exact_email; exact_name_only,100,SAGP 5(1).csv,42
 SAGP000328,RAW000975,multiple_reasons: exact_email; exact_name_only,100,SAGP 5.csv,42
@@ -721,8 +723,8 @@ SAGP000342,RAW001532,multiple_reasons: exact_email; exact_name_only,100,SAGP W p
 SAGP000342,RAW004051,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2416
 SAGP000343,RAW000347,multiple_reasons: exact_email; exact_name_only,100,PA.csv,73
 SAGP000343,RAW004062,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2427
-SAGP000344,RAW000348,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,PA.csv,74
-SAGP000344,RAW004076,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2441
+SAGP000344,RAW000348,exact_email,100,PA.csv,74
+SAGP000344,RAW004076,exact_email,100,contacts.csv,2441
 SAGP000345,RAW000349,multiple_reasons: exact_email; exact_name_only,100,PA.csv,75
 SAGP000345,RAW004106,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2471
 SAGP000346,RAW000350,multiple_reasons: exact_email; exact_name_only,100,PA.csv,76
@@ -749,8 +751,8 @@ SAGP000355,RAW000359,exact_name_only_auto,82,PA.csv,85
 SAGP000355,RAW004330,exact_name_only_auto,82,contacts.csv,2695
 SAGP000356,RAW000360,multiple_reasons: exact_email; exact_name_only,100,PA.csv,86
 SAGP000356,RAW004368,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2733
-SAGP000357,RAW000362,multiple_reasons: exact_email; exact_name_only,100,PA.csv,88
-SAGP000357,RAW004390,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2755
+SAGP000357,RAW000362,exact_email,100,PA.csv,88
+SAGP000357,RAW004390,exact_email,100,contacts.csv,2755
 SAGP000358,RAW000364,multiple_reasons: exact_email; exact_name_only,100,PA.csv,90
 SAGP000358,RAW004568,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2933
 SAGP000359,RAW000365,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,PA.csv,91
@@ -766,10 +768,10 @@ SAGP000363,RAW000369,multiple_reasons: exact_email; exact_name_only,100,PA.csv,9
 SAGP000363,RAW004676,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3041
 SAGP000364,RAW000370,multiple_reasons: exact_email; exact_name_only,100,PA.csv,96
 SAGP000364,RAW004686,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3051
-SAGP000365,RAW000371,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,PA.csv,97
-SAGP000365,RAW004693,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3058
-SAGP000366,RAW000372,multiple_reasons: exact_email; exact_name_only,100,PA.csv,98
-SAGP000366,RAW004716,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3081
+SAGP000365,RAW000371,exact_email,100,PA.csv,97
+SAGP000365,RAW004693,exact_email,100,contacts.csv,3058
+SAGP000366,RAW000372,exact_email,100,PA.csv,98
+SAGP000366,RAW004716,exact_email,100,contacts.csv,3081
 SAGP000367,RAW000373,multiple_reasons: exact_email; exact_name_only,100,PA.csv,99
 SAGP000367,RAW004729,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3094
 SAGP000368,RAW000374,multiple_reasons: exact_email; exact_name_only,100,PA.csv,100
@@ -781,8 +783,8 @@ SAGP000370,RAW004759,multiple_reasons: exact_email; exact_name_only,100,contacts
 SAGP000371,RAW000377,multiple_reasons: exact_email; exact_name_only,100,PA.csv,103
 SAGP000371,RAW001633,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,86
 SAGP000371,RAW004762,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3127
-SAGP000372,RAW000378,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,PA.csv,104
-SAGP000372,RAW004771,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3136
+SAGP000372,RAW000378,exact_email,100,PA.csv,104
+SAGP000372,RAW004771,exact_email,100,contacts.csv,3136
 SAGP000373,RAW000379,multiple_reasons: exact_email; exact_name_only,100,PA.csv,105
 SAGP000373,RAW004793,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3158
 SAGP000374,RAW000380,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,2
@@ -822,14 +824,14 @@ SAGP000388,RAW001482,multiple_reasons: exact_email; exact_name_only,100,SAGP Two
 SAGP000388,RAW002055,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,420
 SAGP000389,RAW000395,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,17
 SAGP000389,RAW002056,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,421
-SAGP000390,RAW000396,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,18
-SAGP000390,RAW000397,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,19
-SAGP000390,RAW002074,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,439
-SAGP000390,RAW002075,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,440
+SAGP000390,RAW000396,exact_email,100,SAGP 2.csv,18
+SAGP000390,RAW000397,exact_email,100,SAGP 2.csv,19
+SAGP000390,RAW002074,exact_email,100,contacts.csv,439
+SAGP000390,RAW002075,exact_email,100,contacts.csv,440
 SAGP000391,RAW000398,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,20
 SAGP000391,RAW002094,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,459
-SAGP000392,RAW000399,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 2.csv,21
-SAGP000392,RAW002119,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,484
+SAGP000392,RAW000399,exact_email,100,SAGP 2.csv,21
+SAGP000392,RAW002119,exact_email,100,contacts.csv,484
 SAGP000393,RAW000400,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,22
 SAGP000393,RAW002137,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,502
 SAGP000394,RAW000401,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,23
@@ -847,8 +849,8 @@ SAGP000399,RAW001483,multiple_reasons: exact_email; exact_name_institution; exac
 SAGP000399,RAW002256,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,621
 SAGP000400,RAW000407,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,29
 SAGP000400,RAW002345,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,710
-SAGP000401,RAW000408,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,30
-SAGP000401,RAW002347,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,712
+SAGP000401,RAW000408,exact_email,100,SAGP 2.csv,30
+SAGP000401,RAW002347,exact_email,100,contacts.csv,712
 SAGP000402,RAW000409,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,31
 SAGP000402,RAW002349,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,714
 SAGP000403,RAW000410,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,32
@@ -863,16 +865,16 @@ SAGP000407,RAW000414,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.c
 SAGP000407,RAW002579,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,944
 SAGP000408,RAW000415,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,37
 SAGP000408,RAW002586,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,951
-SAGP000409,RAW000416,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,38
-SAGP000409,RAW002588,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,953
+SAGP000409,RAW000416,exact_email,100,SAGP 2.csv,38
+SAGP000409,RAW002588,exact_email,100,contacts.csv,953
 SAGP000410,RAW000417,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,39
 SAGP000410,RAW002591,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,956
 SAGP000411,RAW000418,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,40
 SAGP000411,RAW002619,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,984
-SAGP000412,RAW000419,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 2.csv,41
-SAGP000412,RAW002656,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1021
-SAGP000413,RAW000420,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 2.csv,42
-SAGP000413,RAW002668,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1033
+SAGP000412,RAW000419,exact_email,100,SAGP 2.csv,41
+SAGP000412,RAW002656,exact_email,100,contacts.csv,1021
+SAGP000413,RAW000420,exact_email,100,SAGP 2.csv,42
+SAGP000413,RAW002668,exact_email,100,contacts.csv,1033
 SAGP000414,RAW000421,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,43
 SAGP000414,RAW002670,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1035
 SAGP000415,RAW000422,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,44
@@ -883,20 +885,20 @@ SAGP000417,RAW000424,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.c
 SAGP000417,RAW002716,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1081
 SAGP000418,RAW000425,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,47
 SAGP000418,RAW002782,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1147
-SAGP000419,RAW000427,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,49
-SAGP000419,RAW002815,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1180
+SAGP000419,RAW000427,exact_email,100,SAGP 2.csv,49
+SAGP000419,RAW002815,exact_email,100,contacts.csv,1180
 SAGP000420,RAW000428,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,50
 SAGP000420,RAW002849,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1214
 SAGP000421,RAW000429,exact_name_only_auto,82,SAGP 2.csv,51
 SAGP000421,RAW002852,exact_name_only_auto,82,contacts.csv,1217
-SAGP000422,RAW000430,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,52
-SAGP000422,RAW002861,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1226
+SAGP000422,RAW000430,exact_email,100,SAGP 2.csv,52
+SAGP000422,RAW002861,exact_email,100,contacts.csv,1226
 SAGP000423,RAW000431,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,53
 SAGP000423,RAW000434,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,56
 SAGP000423,RAW002887,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1252
 SAGP000423,RAW002902,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1267
-SAGP000424,RAW000432,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,54
-SAGP000424,RAW002892,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1257
+SAGP000424,RAW000432,exact_email,100,SAGP 2.csv,54
+SAGP000424,RAW002892,exact_email,100,contacts.csv,1257
 SAGP000425,RAW000433,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,55
 SAGP000425,RAW002896,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1261
 SAGP000426,RAW000435,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,57
@@ -914,10 +916,10 @@ SAGP000431,RAW000440,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.c
 SAGP000431,RAW003179,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1544
 SAGP000432,RAW000441,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,63
 SAGP000432,RAW003196,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1561
-SAGP000433,RAW000442,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,64
-SAGP000433,RAW003216,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1581
-SAGP000434,RAW000443,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,65
-SAGP000434,RAW003217,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1582
+SAGP000433,RAW000442,exact_email,100,SAGP 2.csv,64
+SAGP000433,RAW003216,exact_email,100,contacts.csv,1581
+SAGP000434,RAW000443,exact_email,100,SAGP 2.csv,65
+SAGP000434,RAW003217,exact_email,100,contacts.csv,1582
 SAGP000435,RAW000444,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,66
 SAGP000435,RAW003280,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1645
 SAGP000436,RAW000445,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,67
@@ -959,8 +961,8 @@ SAGP000449,RAW000458,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.c
 SAGP000449,RAW003585,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1950
 SAGP000450,RAW000459,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 2.csv,81
 SAGP000450,RAW003587,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1952
-SAGP000451,RAW000460,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,82
-SAGP000451,RAW003695,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2060
+SAGP000451,RAW000460,exact_email,100,SAGP 2.csv,82
+SAGP000451,RAW003695,exact_email,100,contacts.csv,2060
 SAGP000452,RAW000461,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,83
 SAGP000452,RAW003705,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2070
 SAGP000453,RAW000462,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,84
@@ -1003,12 +1005,12 @@ SAGP000469,RAW001492,multiple_reasons: exact_email; exact_name_only,100,SAGP Two
 SAGP000469,RAW004258,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2623
 SAGP000470,RAW000479,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,101
 SAGP000470,RAW004269,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2634
-SAGP000471,RAW000481,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 2.csv,103
-SAGP000471,RAW004293,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2658
+SAGP000471,RAW000481,exact_email,100,SAGP 2.csv,103
+SAGP000471,RAW004293,exact_email,100,contacts.csv,2658
 SAGP000472,RAW000482,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,104
 SAGP000472,RAW004318,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2683
-SAGP000473,RAW000483,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,105
-SAGP000473,RAW004340,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2705
+SAGP000473,RAW000483,exact_email,100,SAGP 2.csv,105
+SAGP000473,RAW004340,exact_email,100,contacts.csv,2705
 SAGP000474,RAW000484,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,106
 SAGP000474,RAW002528,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,893
 SAGP000474,RAW004344,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2709
@@ -1064,8 +1066,8 @@ SAGP000497,RAW000509,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.c
 SAGP000497,RAW004738,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3103
 SAGP000498,RAW000510,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,132
 SAGP000498,RAW004741,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3106
-SAGP000499,RAW000511,multiple_reasons: exact_email; exact_name_only,100,SAGP 2.csv,133
-SAGP000499,RAW004767,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3132
+SAGP000499,RAW000511,exact_email,100,SAGP 2.csv,133
+SAGP000499,RAW004767,exact_email,100,contacts.csv,3132
 SAGP000500,RAW000512,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 2.csv,134
 SAGP000500,RAW001548,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,52
 SAGP000500,RAW001635,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP World Other.csv,88
@@ -1077,20 +1079,20 @@ SAGP000502,RAW000514,exact_name_only_auto,82,SAGP 3.csv,2
 SAGP000502,RAW001679,exact_name_only_auto,82,contacts.csv,44
 SAGP000503,RAW000515,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,3
 SAGP000503,RAW001701,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,66
-SAGP000504,RAW000516,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 3.csv,4
-SAGP000504,RAW001815,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,180
+SAGP000504,RAW000516,exact_email,100,SAGP 3.csv,4
+SAGP000504,RAW001815,exact_email,100,contacts.csv,180
 SAGP000505,RAW000517,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,5
 SAGP000505,RAW001848,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,213
-SAGP000506,RAW000518,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,6
-SAGP000506,RAW001849,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,214
+SAGP000506,RAW000518,exact_email,100,SAGP 3.csv,6
+SAGP000506,RAW001849,exact_email,100,contacts.csv,214
 SAGP000507,RAW000519,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,7
 SAGP000507,RAW001850,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,215
 SAGP000508,RAW000520,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,8
 SAGP000508,RAW001864,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,229
 SAGP000509,RAW000521,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,9
 SAGP000509,RAW001962,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,327
-SAGP000510,RAW000522,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,10
-SAGP000510,RAW001996,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,361
+SAGP000510,RAW000522,exact_email,100,SAGP 3.csv,10
+SAGP000510,RAW001996,exact_email,100,contacts.csv,361
 SAGP000511,RAW000523,exact_name_only_auto,82,SAGP 3.csv,11
 SAGP000511,RAW002052,exact_name_only_auto,82,contacts.csv,417
 SAGP000512,RAW000525,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,13
@@ -1101,10 +1103,8 @@ SAGP000514,RAW000527,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.c
 SAGP000514,RAW002225,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,590
 SAGP000515,RAW000528,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,16
 SAGP000515,RAW002283,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,648
-SAGP000516,RAW000529,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,17
-SAGP000516,RAW002462,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,827
-SAGP000517,RAW000530,exact_name_only_auto,82,SAGP 3.csv,18
-SAGP000517,RAW002470,exact_name_only_auto,82,contacts.csv,835
+SAGP000516,RAW000529,exact_email,100,SAGP 3.csv,17
+SAGP000516,RAW002462,exact_email,100,contacts.csv,827
 SAGP000518,RAW000531,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,19
 SAGP000518,RAW002510,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,875
 SAGP000519,RAW000532,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,20
@@ -1135,8 +1135,8 @@ SAGP000531,RAW000544,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.c
 SAGP000531,RAW002868,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1233
 SAGP000532,RAW000545,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,33
 SAGP000532,RAW002869,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1234
-SAGP000533,RAW000546,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 3.csv,34
-SAGP000533,RAW002889,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1254
+SAGP000533,RAW000546,exact_email,100,SAGP 3.csv,34
+SAGP000533,RAW002889,exact_email,100,contacts.csv,1254
 SAGP000534,RAW000547,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,35
 SAGP000534,RAW002998,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1363
 SAGP000535,RAW000548,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 3.csv,36
@@ -1155,16 +1155,16 @@ SAGP000540,RAW001517,multiple_reasons: exact_email; exact_name_only,100,SAGP W p
 SAGP000540,RAW003312,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1677
 SAGP000541,RAW000554,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,42
 SAGP000541,RAW003452,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1817
-SAGP000542,RAW000555,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 3.csv,43
-SAGP000542,RAW003474,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1839
+SAGP000542,RAW000555,exact_email,100,SAGP 3.csv,43
+SAGP000542,RAW003474,exact_email,100,contacts.csv,1839
 SAGP000543,RAW000556,exact_name_only_auto,82,SAGP 3.csv,44
 SAGP000543,RAW003566,exact_name_only_auto,82,contacts.csv,1931
 SAGP000544,RAW000557,exact_name_only_auto,82,SAGP 3.csv,45
 SAGP000544,RAW003568,exact_name_only_auto,82,contacts.csv,1933
 SAGP000545,RAW000558,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,46
 SAGP000545,RAW003581,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1946
-SAGP000546,RAW000559,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,47
-SAGP000546,RAW003584,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1949
+SAGP000546,RAW000559,exact_email,100,SAGP 3.csv,47
+SAGP000546,RAW003584,exact_email,100,contacts.csv,1949
 SAGP000547,RAW000560,exact_name_only_auto,82,SAGP 3.csv,48
 SAGP000547,RAW003624,exact_name_only_auto,82,contacts.csv,1989
 SAGP000548,RAW000561,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,49
@@ -1190,10 +1190,10 @@ SAGP000557,RAW000571,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.c
 SAGP000557,RAW004105,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2470
 SAGP000558,RAW000572,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,60
 SAGP000558,RAW004140,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2505
-SAGP000559,RAW000573,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 3.csv,61
-SAGP000559,RAW004147,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2512
-SAGP000560,RAW000574,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 3.csv,62
-SAGP000560,RAW004166,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2531
+SAGP000559,RAW000573,exact_email,100,SAGP 3.csv,61
+SAGP000559,RAW004147,exact_email,100,contacts.csv,2512
+SAGP000560,RAW000574,exact_email,100,SAGP 3.csv,62
+SAGP000560,RAW004166,exact_email,100,contacts.csv,2531
 SAGP000561,RAW000575,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,63
 SAGP000561,RAW004171,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2536
 SAGP000562,RAW000576,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,64
@@ -1205,8 +1205,8 @@ SAGP000563,RAW002950,multiple_reasons: exact_email; exact_name_only,100,contacts
 SAGP000563,RAW004314,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2679
 SAGP000564,RAW000578,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,66
 SAGP000564,RAW004363,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2728
-SAGP000565,RAW000579,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,67
-SAGP000565,RAW004365,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2730
+SAGP000565,RAW000579,exact_email,100,SAGP 3.csv,67
+SAGP000565,RAW004365,exact_email,100,contacts.csv,2730
 SAGP000566,RAW000580,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,68
 SAGP000566,RAW004367,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2732
 SAGP000567,RAW000581,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,69
@@ -1238,8 +1238,8 @@ SAGP000577,RAW000591,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.c
 SAGP000577,RAW004658,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3023
 SAGP000578,RAW000592,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,80
 SAGP000578,RAW004666,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3031
-SAGP000579,RAW000593,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,81
-SAGP000579,RAW004683,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3048
+SAGP000579,RAW000593,exact_email,100,SAGP 3.csv,81
+SAGP000579,RAW004683,exact_email,100,contacts.csv,3048
 SAGP000580,RAW000594,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,82
 SAGP000580,RAW004706,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3071
 SAGP000581,RAW000595,multiple_reasons: exact_email; exact_name_only,100,SAGP 3.csv,83
@@ -1838,12 +1838,12 @@ SAGP000774,RAW004664,exact_name_only_auto,82,contacts.csv,3029
 SAGP000775,RAW000934,multiple_reasons: exact_email; exact_name_only,100,SAGP 5(1).csv,68
 SAGP000775,RAW001001,multiple_reasons: exact_email; exact_name_only,100,SAGP 5.csv,68
 SAGP000775,RAW004720,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3085
-SAGP000776,RAW001002,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,2
-SAGP000776,RAW001651,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,16
+SAGP000776,RAW001002,exact_email,100,SAGP 6.csv,2
+SAGP000776,RAW001651,exact_email,100,contacts.csv,16
 SAGP000777,RAW001003,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,3
 SAGP000777,RAW001664,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,29
-SAGP000778,RAW001004,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,4
-SAGP000778,RAW001792,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,157
+SAGP000778,RAW001004,exact_email,100,SAGP 6.csv,4
+SAGP000778,RAW001792,exact_email,100,contacts.csv,157
 SAGP000779,RAW001005,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,5
 SAGP000779,RAW001808,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,173
 SAGP000780,RAW001006,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,6
@@ -1856,18 +1856,18 @@ SAGP000783,RAW001009,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000783,RAW002025,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,390
 SAGP000784,RAW001010,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,10
 SAGP000784,RAW002026,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,391
-SAGP000785,RAW001011,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,11
-SAGP000785,RAW002069,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,434
+SAGP000785,RAW001011,exact_email,100,SAGP 6.csv,11
+SAGP000785,RAW002069,exact_email,100,contacts.csv,434
 SAGP000786,RAW001012,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,12
 SAGP000786,RAW002107,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,472
 SAGP000787,RAW001013,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,13
 SAGP000787,RAW002184,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,549
-SAGP000788,RAW001014,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,14
-SAGP000788,RAW002186,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,551
+SAGP000788,RAW001014,exact_email,100,SAGP 6.csv,14
+SAGP000788,RAW002186,exact_email,100,contacts.csv,551
 SAGP000789,RAW001015,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,15
 SAGP000789,RAW002215,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,580
-SAGP000790,RAW001016,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,16
-SAGP000790,RAW002261,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,626
+SAGP000790,RAW001016,exact_email,100,SAGP 6.csv,16
+SAGP000790,RAW002261,exact_email,100,contacts.csv,626
 SAGP000791,RAW001017,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,17
 SAGP000791,RAW002264,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,629
 SAGP000792,RAW001018,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,18
@@ -1890,10 +1890,10 @@ SAGP000800,RAW001026,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000800,RAW002627,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,992
 SAGP000801,RAW001027,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,27
 SAGP000801,RAW002644,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1009
-SAGP000802,RAW001028,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,28
-SAGP000802,RAW002704,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1069
-SAGP000803,RAW001029,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,29
-SAGP000803,RAW002726,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1091
+SAGP000802,RAW001028,exact_email,100,SAGP 6.csv,28
+SAGP000802,RAW002704,exact_email,100,contacts.csv,1069
+SAGP000803,RAW001029,exact_email,100,SAGP 6.csv,29
+SAGP000803,RAW002726,exact_email,100,contacts.csv,1091
 SAGP000804,RAW001030,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,30
 SAGP000804,RAW001134,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,38
 SAGP000804,RAW002743,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1108
@@ -1928,8 +1928,8 @@ SAGP000818,RAW001044,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000818,RAW003255,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1620
 SAGP000819,RAW001045,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,45
 SAGP000819,RAW003274,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1639
-SAGP000820,RAW001046,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,46
-SAGP000820,RAW003339,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1704
+SAGP000820,RAW001046,exact_email,100,SAGP 6.csv,46
+SAGP000820,RAW003339,exact_email,100,contacts.csv,1704
 SAGP000821,RAW001047,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,47
 SAGP000821,RAW001309,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,77
 SAGP000821,RAW003347,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1712
@@ -1948,8 +1948,8 @@ SAGP000827,RAW001053,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000827,RAW003546,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1911
 SAGP000828,RAW001054,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,54
 SAGP000828,RAW003569,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1934
-SAGP000829,RAW001055,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,55
-SAGP000829,RAW003582,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1947
+SAGP000829,RAW001055,exact_email,100,SAGP 6.csv,55
+SAGP000829,RAW003582,exact_email,100,contacts.csv,1947
 SAGP000830,RAW001056,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,56
 SAGP000830,RAW003588,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1953
 SAGP000831,RAW001057,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,57
@@ -1960,8 +1960,8 @@ SAGP000832,RAW001058,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000832,RAW003600,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1965
 SAGP000833,RAW001059,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,59
 SAGP000833,RAW003609,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1974
-SAGP000834,RAW001060,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,60
-SAGP000834,RAW003622,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1987
+SAGP000834,RAW001060,exact_email,100,SAGP 6.csv,60
+SAGP000834,RAW003622,exact_email,100,contacts.csv,1987
 SAGP000835,RAW001061,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,61
 SAGP000835,RAW003688,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2053
 SAGP000836,RAW001062,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,62
@@ -1987,8 +1987,8 @@ SAGP000845,RAW001072,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000845,RAW003859,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2224
 SAGP000846,RAW001074,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,74
 SAGP000846,RAW003944,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2309
-SAGP000847,RAW001075,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,75
-SAGP000847,RAW004006,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2371
+SAGP000847,RAW001075,exact_email,100,SAGP 6.csv,75
+SAGP000847,RAW004006,exact_email,100,contacts.csv,2371
 SAGP000848,RAW001076,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,76
 SAGP000848,RAW004081,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2446
 SAGP000849,RAW001077,exact_name_only_auto,82,SAGP 6.csv,77
@@ -1997,14 +1997,14 @@ SAGP000850,RAW001078,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000850,RAW004217,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2582
 SAGP000851,RAW001081,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,81
 SAGP000851,RAW004332,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2697
-SAGP000852,RAW001082,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,82
-SAGP000852,RAW004349,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2714
+SAGP000852,RAW001082,exact_email,100,SAGP 6.csv,82
+SAGP000852,RAW004349,exact_email,100,contacts.csv,2714
 SAGP000853,RAW001083,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,83
 SAGP000853,RAW004378,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2743
-SAGP000854,RAW001084,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,84
-SAGP000854,RAW004398,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2763
-SAGP000855,RAW001085,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,85
-SAGP000855,RAW004468,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2833
+SAGP000854,RAW001084,exact_email,100,SAGP 6.csv,84
+SAGP000854,RAW004398,exact_email,100,contacts.csv,2763
+SAGP000855,RAW001085,exact_email,100,SAGP 6.csv,85
+SAGP000855,RAW004468,exact_email,100,contacts.csv,2833
 SAGP000856,RAW001087,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,87
 SAGP000856,RAW004574,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2939
 SAGP000857,RAW001088,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,88
@@ -2015,24 +2015,24 @@ SAGP000859,RAW001090,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.c
 SAGP000859,RAW004642,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3007
 SAGP000860,RAW001091,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,91
 SAGP000860,RAW004650,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3015
-SAGP000861,RAW001092,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,92
-SAGP000861,RAW004659,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3024
+SAGP000861,RAW001092,exact_email,100,SAGP 6.csv,92
+SAGP000861,RAW004659,exact_email,100,contacts.csv,3024
 SAGP000862,RAW001093,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,93
 SAGP000862,RAW004660,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3025
 SAGP000863,RAW001094,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,94
 SAGP000863,RAW004709,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3074
-SAGP000864,RAW001095,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,95
-SAGP000864,RAW004753,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3118
-SAGP000865,RAW001096,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 6.csv,96
-SAGP000865,RAW004787,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3152
-SAGP000866,RAW001097,multiple_reasons: exact_email; exact_name_only,100,SAGP 6.csv,97
-SAGP000866,RAW004797,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3162
+SAGP000864,RAW001095,exact_email,100,SAGP 6.csv,95
+SAGP000864,RAW004753,exact_email,100,contacts.csv,3118
+SAGP000865,RAW001096,exact_email,100,SAGP 6.csv,96
+SAGP000865,RAW004787,exact_email,100,contacts.csv,3152
+SAGP000866,RAW001097,exact_email,100,SAGP 6.csv,97
+SAGP000866,RAW004797,exact_email,100,contacts.csv,3162
 SAGP000867,RAW001099,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,3
 SAGP000867,RAW001673,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,38
-SAGP000868,RAW001100,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,4
-SAGP000868,RAW001676,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,41
-SAGP000869,RAW001101,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,5
-SAGP000869,RAW001751,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,116
+SAGP000868,RAW001100,exact_email,100,SAGP 7.csv,4
+SAGP000868,RAW001676,exact_email,100,contacts.csv,41
+SAGP000869,RAW001101,exact_email,100,SAGP 7.csv,5
+SAGP000869,RAW001751,exact_email,100,contacts.csv,116
 SAGP000870,RAW001102,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,6
 SAGP000870,RAW001821,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,186
 SAGP000871,RAW001103,exact_name_only_auto,82,SAGP 7.csv,7
@@ -2054,8 +2054,8 @@ SAGP000878,RAW001110,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.c
 SAGP000878,RAW002045,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,410
 SAGP000879,RAW001111,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,15
 SAGP000879,RAW002046,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,411
-SAGP000880,RAW001112,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,16
-SAGP000880,RAW002047,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,412
+SAGP000880,RAW001112,exact_email,100,SAGP 7.csv,16
+SAGP000880,RAW002047,exact_email,100,contacts.csv,412
 SAGP000881,RAW001113,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,17
 SAGP000881,RAW002059,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,424
 SAGP000882,RAW001114,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,18
@@ -2084,10 +2084,10 @@ SAGP000893,RAW001125,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.c
 SAGP000893,RAW002473,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,838
 SAGP000894,RAW001126,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,30
 SAGP000894,RAW002482,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,847
-SAGP000895,RAW001127,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,31
-SAGP000895,RAW002490,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,855
-SAGP000896,RAW001128,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,32
-SAGP000896,RAW002512,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,877
+SAGP000895,RAW001127,exact_email,100,SAGP 7.csv,31
+SAGP000895,RAW002490,exact_email,100,contacts.csv,855
+SAGP000896,RAW001128,exact_email,100,SAGP 7.csv,32
+SAGP000896,RAW002512,exact_email,100,contacts.csv,877
 SAGP000897,RAW001129,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,33
 SAGP000897,RAW002547,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,912
 SAGP000898,RAW001130,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,34
@@ -2118,18 +2118,18 @@ SAGP000910,RAW001143,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.c
 SAGP000910,RAW002873,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1238
 SAGP000911,RAW001144,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,48
 SAGP000911,RAW002883,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1248
-SAGP000912,RAW001145,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,49
-SAGP000912,RAW003034,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1399
-SAGP000913,RAW001146,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,50
-SAGP000913,RAW003046,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1411
+SAGP000912,RAW001145,exact_email,100,SAGP 7.csv,49
+SAGP000912,RAW003034,exact_email,100,contacts.csv,1399
+SAGP000913,RAW001146,exact_email,100,SAGP 7.csv,50
+SAGP000913,RAW003046,exact_email,100,contacts.csv,1411
 SAGP000914,RAW001147,exact_name_only_auto,82,SAGP 7.csv,51
 SAGP000914,RAW003178,exact_name_only_auto,82,contacts.csv,1543
-SAGP000915,RAW001148,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,52
-SAGP000915,RAW003195,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1560
+SAGP000915,RAW001148,exact_email,100,SAGP 7.csv,52
+SAGP000915,RAW003195,exact_email,100,contacts.csv,1560
 SAGP000916,RAW001150,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,54
 SAGP000916,RAW003278,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1643
-SAGP000917,RAW001151,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,55
-SAGP000917,RAW003284,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1649
+SAGP000917,RAW001151,exact_email,100,SAGP 7.csv,55
+SAGP000917,RAW003284,exact_email,100,contacts.csv,1649
 SAGP000918,RAW001152,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,56
 SAGP000918,RAW003295,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1660
 SAGP000919,RAW001153,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,57
@@ -2160,16 +2160,16 @@ SAGP000931,RAW001166,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.c
 SAGP000931,RAW003903,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2268
 SAGP000932,RAW001167,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,71
 SAGP000932,RAW003968,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2333
-SAGP000933,RAW001168,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,72
-SAGP000933,RAW004022,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2387
-SAGP000934,RAW001169,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,73
-SAGP000934,RAW004078,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2443
+SAGP000933,RAW001168,exact_email,100,SAGP 7.csv,72
+SAGP000933,RAW004022,exact_email,100,contacts.csv,2387
+SAGP000934,RAW001169,exact_email,100,SAGP 7.csv,73
+SAGP000934,RAW004078,exact_email,100,contacts.csv,2443
 SAGP000935,RAW001170,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,74
 SAGP000935,RAW004108,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2473
 SAGP000936,RAW001171,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,75
 SAGP000936,RAW004188,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2553
-SAGP000937,RAW001172,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,76
-SAGP000937,RAW004193,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2558
+SAGP000937,RAW001172,exact_email,100,SAGP 7.csv,76
+SAGP000937,RAW004193,exact_email,100,contacts.csv,2558
 SAGP000938,RAW001173,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,77
 SAGP000938,RAW004265,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2630
 SAGP000939,RAW001174,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,78
@@ -2183,12 +2183,12 @@ SAGP000942,RAW001177,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.c
 SAGP000942,RAW004386,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2751
 SAGP000943,RAW001178,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,82
 SAGP000943,RAW004396,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2761
-SAGP000944,RAW001179,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 7.csv,83
-SAGP000944,RAW004592,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2957
+SAGP000944,RAW001179,exact_email,100,SAGP 7.csv,83
+SAGP000944,RAW004592,exact_email,100,contacts.csv,2957
 SAGP000945,RAW001180,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,84
 SAGP000945,RAW004599,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2964
-SAGP000946,RAW001181,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,85
-SAGP000946,RAW004608,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2973
+SAGP000946,RAW001181,exact_email,100,SAGP 7.csv,85
+SAGP000946,RAW004608,exact_email,100,contacts.csv,2973
 SAGP000947,RAW001182,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,86
 SAGP000947,RAW004639,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3004
 SAGP000948,RAW001183,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,87
@@ -2199,8 +2199,8 @@ SAGP000950,RAW001185,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.c
 SAGP000950,RAW004737,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3102
 SAGP000951,RAW001186,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,90
 SAGP000951,RAW004743,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3108
-SAGP000952,RAW001187,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,91
-SAGP000952,RAW004756,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3121
+SAGP000952,RAW001187,exact_email,100,SAGP 7.csv,91
+SAGP000952,RAW004756,exact_email,100,contacts.csv,3121
 SAGP000953,RAW001188,multiple_reasons: exact_email; exact_name_only,100,SAGP 7.csv,92
 SAGP000953,RAW004765,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3130
 SAGP000954,RAW001189,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,2
@@ -2236,8 +2236,8 @@ SAGP000968,RAW001204,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.c
 SAGP000968,RAW002860,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1225
 SAGP000969,RAW001205,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,18
 SAGP000969,RAW002894,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1259
-SAGP000970,RAW001206,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,19
-SAGP000970,RAW002936,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1301
+SAGP000970,RAW001206,exact_email,100,SAGP 8.csv,19
+SAGP000970,RAW002936,exact_email,100,contacts.csv,1301
 SAGP000971,RAW001207,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,20
 SAGP000971,RAW003140,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1505
 SAGP000972,RAW001208,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,21
@@ -2260,33 +2260,33 @@ SAGP000980,RAW001217,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.c
 SAGP000980,RAW004174,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2539
 SAGP000981,RAW001218,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,31
 SAGP000981,RAW004178,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2543
-SAGP000982,RAW001219,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,32
-SAGP000982,RAW004189,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2554
+SAGP000982,RAW001219,exact_email,100,SAGP 8.csv,32
+SAGP000982,RAW004189,exact_email,100,contacts.csv,2554
 SAGP000983,RAW001221,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,34
 SAGP000983,RAW004261,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2626
 SAGP000984,RAW001222,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,35
 SAGP000984,RAW004267,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2632
-SAGP000985,RAW001223,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,36
-SAGP000985,RAW004357,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2722
+SAGP000985,RAW001223,exact_email,100,SAGP 8.csv,36
+SAGP000985,RAW004357,exact_email,100,contacts.csv,2722
 SAGP000986,RAW001224,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,37
 SAGP000986,RAW004484,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2849
-SAGP000987,RAW001225,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,38
-SAGP000987,RAW004539,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2904
-SAGP000988,RAW001226,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,39
-SAGP000988,RAW004607,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2972
+SAGP000987,RAW001225,exact_email,100,SAGP 8.csv,38
+SAGP000987,RAW004539,exact_email,100,contacts.csv,2904
+SAGP000988,RAW001226,exact_email,100,SAGP 8.csv,39
+SAGP000988,RAW004607,exact_email,100,contacts.csv,2972
 SAGP000989,RAW001227,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,40
 SAGP000989,RAW001545,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,49
 SAGP000989,RAW004662,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3027
 SAGP000990,RAW001228,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,41
 SAGP000990,RAW004675,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3040
-SAGP000991,RAW001229,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,42
-SAGP000991,RAW004682,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3047
+SAGP000991,RAW001229,exact_email,100,SAGP 8.csv,42
+SAGP000991,RAW004682,exact_email,100,contacts.csv,3047
 SAGP000992,RAW001230,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,43
 SAGP000992,RAW004697,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3062
 SAGP000993,RAW001231,exact_name_only_auto,82,SAGP 8.csv,44
 SAGP000993,RAW004740,exact_name_only_auto,82,contacts.csv,3105
-SAGP000994,RAW001232,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,45
-SAGP000994,RAW004747,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3112
+SAGP000994,RAW001232,exact_email,100,SAGP 8.csv,45
+SAGP000994,RAW004747,exact_email,100,contacts.csv,3112
 SAGP000995,RAW001233,multiple_reasons: exact_email; exact_name_only,100,SAGP 8.csv,46
 SAGP000995,RAW004766,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3131
 SAGP000996,RAW001234,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,2
@@ -2319,12 +2319,12 @@ SAGP001009,RAW001248,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001009,RAW001983,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,348
 SAGP001010,RAW001249,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,17
 SAGP001010,RAW001985,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,350
-SAGP001011,RAW001250,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,18
-SAGP001011,RAW001998,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,363
-SAGP001012,RAW001251,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,19
-SAGP001012,RAW002021,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,386
-SAGP001013,RAW001253,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,21
-SAGP001013,RAW002041,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,406
+SAGP001011,RAW001250,exact_email,100,SAGP 9.csv,18
+SAGP001011,RAW001998,exact_email,100,contacts.csv,363
+SAGP001012,RAW001251,exact_email,100,SAGP 9.csv,19
+SAGP001012,RAW002021,exact_email,100,contacts.csv,386
+SAGP001013,RAW001253,exact_email,100,SAGP 9.csv,21
+SAGP001013,RAW002041,exact_email,100,contacts.csv,406
 SAGP001014,RAW001254,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,22
 SAGP001014,RAW002043,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,408
 SAGP001015,RAW001255,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,23
@@ -2341,14 +2341,14 @@ SAGP001020,RAW001260,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001020,RAW002250,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,615
 SAGP001021,RAW001261,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,29
 SAGP001021,RAW002251,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,616
-SAGP001022,RAW001262,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,30
-SAGP001022,RAW002337,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,702
-SAGP001023,RAW001263,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,31
-SAGP001023,RAW002362,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,727
+SAGP001022,RAW001262,exact_email,100,SAGP 9.csv,30
+SAGP001022,RAW002337,exact_email,100,contacts.csv,702
+SAGP001023,RAW001263,exact_email,100,SAGP 9.csv,31
+SAGP001023,RAW002362,exact_email,100,contacts.csv,727
 SAGP001024,RAW001264,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,32
 SAGP001024,RAW002374,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,739
-SAGP001025,RAW001265,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,33
-SAGP001025,RAW002375,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,740
+SAGP001025,RAW001265,exact_email,100,SAGP 9.csv,33
+SAGP001025,RAW002375,exact_email,100,contacts.csv,740
 SAGP001026,RAW001266,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,34
 SAGP001026,RAW002408,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,773
 SAGP001027,RAW001267,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,35
@@ -2361,30 +2361,28 @@ SAGP001030,RAW001270,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001030,RAW002446,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,811
 SAGP001031,RAW001271,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,39
 SAGP001031,RAW002524,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,889
-SAGP001032,RAW001272,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,40
-SAGP001032,RAW002536,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,901
+SAGP001032,RAW001272,exact_email,100,SAGP 9.csv,40
+SAGP001032,RAW002536,exact_email,100,contacts.csv,901
 SAGP001033,RAW001273,exact_name_only_auto,82,SAGP 9.csv,41
 SAGP001033,RAW002543,exact_name_only_auto,82,contacts.csv,908
-SAGP001034,RAW001274,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,42
-SAGP001034,RAW002568,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,933
+SAGP001034,RAW001274,exact_email,100,SAGP 9.csv,42
+SAGP001034,RAW002568,exact_email,100,contacts.csv,933
 SAGP001035,RAW001275,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,43
 SAGP001035,RAW002569,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,934
-SAGP001036,RAW001276,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,44
-SAGP001036,RAW002576,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,941
+SAGP001036,RAW001276,exact_email,100,SAGP 9.csv,44
+SAGP001036,RAW002576,exact_email,100,contacts.csv,941
 SAGP001037,RAW001277,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,45
 SAGP001037,RAW002582,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,947
-SAGP001038,RAW001278,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,46
-SAGP001038,RAW002589,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,954
-SAGP001039,RAW001279,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,47
-SAGP001039,RAW002622,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,987
-SAGP001040,RAW001280,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,48
-SAGP001040,RAW002646,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1011
+SAGP001038,RAW001278,exact_email,100,SAGP 9.csv,46
+SAGP001038,RAW002589,exact_email,100,contacts.csv,954
+SAGP001039,RAW001279,exact_email,100,SAGP 9.csv,47
+SAGP001039,RAW002622,exact_email,100,contacts.csv,987
+SAGP001040,RAW001280,exact_email,100,SAGP 9.csv,48
+SAGP001040,RAW002646,exact_email,100,contacts.csv,1011
 SAGP001041,RAW001281,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,49
 SAGP001041,RAW002666,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1031
 SAGP001042,RAW001282,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,50
 SAGP001042,RAW002694,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1059
-SAGP001043,RAW001283,exact_name_only_auto,82,SAGP 9.csv,51
-SAGP001043,RAW002707,exact_name_only_auto,82,contacts.csv,1072
 SAGP001044,RAW001284,exact_name_only_auto,82,SAGP 9.csv,52
 SAGP001044,RAW002712,exact_name_only_auto,82,contacts.csv,1077
 SAGP001045,RAW001285,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,53
@@ -2397,10 +2395,10 @@ SAGP001048,RAW001288,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001048,RAW002821,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1186
 SAGP001049,RAW001289,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,57
 SAGP001049,RAW002823,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1188
-SAGP001050,RAW001290,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,58
-SAGP001050,RAW002837,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1202
-SAGP001051,RAW001291,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,59
-SAGP001051,RAW002855,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1220
+SAGP001050,RAW001290,exact_email,100,SAGP 9.csv,58
+SAGP001050,RAW002837,exact_email,100,contacts.csv,1202
+SAGP001051,RAW001291,exact_email,100,SAGP 9.csv,59
+SAGP001051,RAW002855,exact_email,100,contacts.csv,1220
 SAGP001052,RAW001292,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,60
 SAGP001052,RAW002870,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1235
 SAGP001053,RAW001293,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,61
@@ -2413,12 +2411,12 @@ SAGP001056,RAW001296,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001056,RAW003001,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1366
 SAGP001057,RAW001297,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,65
 SAGP001057,RAW003013,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1378
-SAGP001058,RAW001298,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,66
-SAGP001058,RAW003014,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1379
+SAGP001058,RAW001298,exact_email,100,SAGP 9.csv,66
+SAGP001058,RAW003014,exact_email,100,contacts.csv,1379
 SAGP001059,RAW001299,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,67
 SAGP001059,RAW003048,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1413
-SAGP001060,RAW001300,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,68
-SAGP001060,RAW003075,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1440
+SAGP001060,RAW001300,exact_email,100,SAGP 9.csv,68
+SAGP001060,RAW003075,exact_email,100,contacts.csv,1440
 SAGP001061,RAW001301,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,69
 SAGP001061,RAW003126,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1491
 SAGP001062,RAW001302,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,70
@@ -2441,8 +2439,8 @@ SAGP001070,RAW001312,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001070,RAW003418,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1783
 SAGP001071,RAW001313,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,81
 SAGP001071,RAW003476,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1841
-SAGP001072,RAW001314,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,82
-SAGP001072,RAW003491,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1856
+SAGP001072,RAW001314,exact_email,100,SAGP 9.csv,82
+SAGP001072,RAW003491,exact_email,100,contacts.csv,1856
 SAGP001073,RAW001315,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,83
 SAGP001073,RAW001600,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP World Other.csv,53
 SAGP001073,RAW003524,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1889
@@ -2450,8 +2448,8 @@ SAGP001074,RAW001316,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001074,RAW003526,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1891
 SAGP001075,RAW001317,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,85
 SAGP001075,RAW003527,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1892
-SAGP001076,RAW001318,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP 9.csv,86
-SAGP001076,RAW003555,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1920
+SAGP001076,RAW001318,exact_email,100,SAGP 9.csv,86
+SAGP001076,RAW003555,exact_email,100,contacts.csv,1920
 SAGP001077,RAW001320,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,88
 SAGP001077,RAW003572,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1937
 SAGP001078,RAW001321,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,89
@@ -2464,14 +2462,14 @@ SAGP001081,RAW001324,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001081,RAW003714,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2079
 SAGP001082,RAW001325,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,93
 SAGP001082,RAW003725,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2090
-SAGP001083,RAW001326,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,94
-SAGP001083,RAW003737,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2102
+SAGP001083,RAW001326,exact_email,100,SAGP 9.csv,94
+SAGP001083,RAW003737,exact_email,100,contacts.csv,2102
 SAGP001084,RAW001327,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,95
 SAGP001084,RAW003753,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2118
 SAGP001085,RAW001328,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,96
 SAGP001085,RAW003756,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2121
-SAGP001086,RAW001329,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,97
-SAGP001086,RAW003788,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2153
+SAGP001086,RAW001329,exact_email,100,SAGP 9.csv,97
+SAGP001086,RAW003788,exact_email,100,contacts.csv,2153
 SAGP001087,RAW001330,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,98
 SAGP001087,RAW003817,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2182
 SAGP001088,RAW001331,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,99
@@ -2513,16 +2511,16 @@ SAGP001105,RAW001348,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001105,RAW004292,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2657
 SAGP001106,RAW001350,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,118
 SAGP001106,RAW004370,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2735
-SAGP001107,RAW001351,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,119
-SAGP001107,RAW004391,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2756
-SAGP001108,RAW001352,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,120
-SAGP001108,RAW004402,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2767
+SAGP001107,RAW001351,exact_email,100,SAGP 9.csv,119
+SAGP001107,RAW004391,exact_email,100,contacts.csv,2756
+SAGP001108,RAW001352,exact_email,100,SAGP 9.csv,120
+SAGP001108,RAW004402,exact_email,100,contacts.csv,2767
 SAGP001109,RAW001353,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,121
 SAGP001109,RAW004475,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2840
 SAGP001110,RAW001355,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,123
 SAGP001110,RAW004502,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2867
-SAGP001111,RAW001356,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,124
-SAGP001111,RAW004572,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2937
+SAGP001111,RAW001356,exact_email,100,SAGP 9.csv,124
+SAGP001111,RAW004572,exact_email,100,contacts.csv,2937
 SAGP001112,RAW001357,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,125
 SAGP001112,RAW004602,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2967
 SAGP001113,RAW001358,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,126
@@ -2539,20 +2537,20 @@ SAGP001118,RAW001363,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.c
 SAGP001118,RAW004695,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3060
 SAGP001119,RAW001364,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,132
 SAGP001119,RAW004763,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3128
-SAGP001120,RAW001365,multiple_reasons: exact_email; exact_name_only,100,SAGP 9.csv,133
-SAGP001120,RAW004786,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3151
+SAGP001120,RAW001365,exact_email,100,SAGP 9.csv,133
+SAGP001120,RAW004786,exact_email,100,contacts.csv,3151
 SAGP001121,RAW001366,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,2
 SAGP001121,RAW001683,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,48
 SAGP001122,RAW001367,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,3
 SAGP001122,RAW001797,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,162
-SAGP001123,RAW001368,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,4
-SAGP001123,RAW001863,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,228
+SAGP001123,RAW001368,exact_email,100,SAGP Canada.csv,4
+SAGP001123,RAW001863,exact_email,100,contacts.csv,228
 SAGP001124,RAW001370,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,6
 SAGP001124,RAW001881,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,246
 SAGP001125,RAW001371,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,7
 SAGP001125,RAW001894,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,259
-SAGP001126,RAW001372,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP Canada.csv,8
-SAGP001126,RAW001990,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,355
+SAGP001126,RAW001372,exact_email,100,SAGP Canada.csv,8
+SAGP001126,RAW001990,exact_email,100,contacts.csv,355
 SAGP001127,RAW001373,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,9
 SAGP001127,RAW002023,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,388
 SAGP001128,RAW001374,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,10
@@ -2601,8 +2599,8 @@ SAGP001149,RAW001396,exact_name_only_auto,82,SAGP Canada.csv,32
 SAGP001149,RAW002696,exact_name_only_auto,82,contacts.csv,1061
 SAGP001150,RAW001397,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,33
 SAGP001150,RAW002724,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1089
-SAGP001151,RAW001398,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,34
-SAGP001151,RAW002725,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1090
+SAGP001151,RAW001398,exact_email,100,SAGP Canada.csv,34
+SAGP001151,RAW002725,exact_email,100,contacts.csv,1090
 SAGP001152,RAW001399,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,35
 SAGP001152,RAW002727,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1092
 SAGP001153,RAW001400,exact_name_only_auto,82,SAGP Canada.csv,36
@@ -2613,8 +2611,8 @@ SAGP001155,RAW001402,multiple_reasons: exact_email; exact_name_only,100,SAGP Can
 SAGP001155,RAW002769,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1134
 SAGP001156,RAW001403,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,39
 SAGP001156,RAW002772,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1137
-SAGP001157,RAW001404,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,40
-SAGP001157,RAW002781,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1146
+SAGP001157,RAW001404,exact_email,100,SAGP Canada.csv,40
+SAGP001157,RAW002781,exact_email,100,contacts.csv,1146
 SAGP001158,RAW001405,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,41
 SAGP001158,RAW002801,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1166
 SAGP001159,RAW001406,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,42
@@ -2630,8 +2628,8 @@ SAGP001163,RAW001410,multiple_reasons: exact_email; exact_name_only,100,SAGP Can
 SAGP001163,RAW002834,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1199
 SAGP001164,RAW001411,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,47
 SAGP001164,RAW002847,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1212
-SAGP001165,RAW001412,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,48
-SAGP001165,RAW002848,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1213
+SAGP001165,RAW001412,exact_email,100,SAGP Canada.csv,48
+SAGP001165,RAW002848,exact_email,100,contacts.csv,1213
 SAGP001166,RAW001413,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,49
 SAGP001166,RAW002853,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1218
 SAGP001167,RAW001414,exact_name_only_auto,82,SAGP Canada.csv,50
@@ -2703,8 +2701,8 @@ SAGP001199,RAW001446,multiple_reasons: exact_email; exact_name_only,100,SAGP Can
 SAGP001199,RAW003937,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2302
 SAGP001200,RAW001447,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,83
 SAGP001200,RAW003941,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2306
-SAGP001201,RAW001448,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,84
-SAGP001201,RAW003945,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2310
+SAGP001201,RAW001448,exact_email,100,SAGP Canada.csv,84
+SAGP001201,RAW003945,exact_email,100,contacts.csv,2310
 SAGP001202,RAW001449,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,85
 SAGP001202,RAW003978,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2343
 SAGP001203,RAW001450,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,86
@@ -2717,8 +2715,8 @@ SAGP001206,RAW001453,multiple_reasons: exact_email; exact_name_only,100,SAGP Can
 SAGP001206,RAW004070,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2435
 SAGP001207,RAW001454,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,90
 SAGP001207,RAW004110,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2475
-SAGP001208,RAW001455,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,91
-SAGP001208,RAW004116,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2481
+SAGP001208,RAW001455,exact_email,100,SAGP Canada.csv,91
+SAGP001208,RAW004116,exact_email,100,contacts.csv,2481
 SAGP001209,RAW001456,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,92
 SAGP001209,RAW004138,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2503
 SAGP001210,RAW001457,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,93
@@ -2759,250 +2757,249 @@ SAGP001227,RAW001475,multiple_reasons: exact_email; exact_name_only,100,SAGP Can
 SAGP001227,RAW004754,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3119
 SAGP001228,RAW001476,multiple_reasons: exact_email; exact_name_only,100,SAGP Canada.csv,112
 SAGP001228,RAW004798,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3163
-SAGP001229,RAW001498,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,2
-SAGP001229,RAW001767,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,132
-SAGP001230,RAW001499,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,3
-SAGP001230,RAW001906,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,271
-SAGP001231,RAW001500,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,4
-SAGP001231,RAW001919,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,284
+SAGP001229,RAW001498,exact_email,100,SAGP W pd.csv,2
+SAGP001229,RAW001767,exact_email,100,contacts.csv,132
+SAGP001230,RAW001499,exact_email,100,SAGP W pd.csv,3
+SAGP001230,RAW001906,exact_email,100,contacts.csv,271
+SAGP001231,RAW001500,exact_email,100,SAGP W pd.csv,4
+SAGP001231,RAW001919,exact_email,100,contacts.csv,284
 SAGP001232,RAW001501,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,5
 SAGP001232,RAW001968,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,333
-SAGP001233,RAW001502,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,6
-SAGP001233,RAW001975,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,340
+SAGP001233,RAW001502,exact_email,100,SAGP W pd.csv,6
+SAGP001233,RAW001975,exact_email,100,contacts.csv,340
 SAGP001234,RAW001503,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,7
 SAGP001234,RAW001507,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,11
 SAGP001234,RAW002085,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,450
 SAGP001234,RAW002227,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,592
-SAGP001235,RAW001504,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,8
-SAGP001235,RAW002101,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,466
-SAGP001236,RAW001505,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,9
-SAGP001236,RAW002102,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,467
-SAGP001237,RAW001506,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,10
-SAGP001237,RAW002202,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,567
-SAGP001238,RAW001508,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,12
-SAGP001238,RAW002406,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,771
-SAGP001239,RAW001509,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,13
-SAGP001239,RAW002492,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,857
+SAGP001235,RAW001504,exact_email,100,SAGP W pd.csv,8
+SAGP001235,RAW002101,exact_email,100,contacts.csv,466
+SAGP001236,RAW001505,exact_email,100,SAGP W pd.csv,9
+SAGP001236,RAW002102,exact_email,100,contacts.csv,467
+SAGP001237,RAW001506,exact_email,100,SAGP W pd.csv,10
+SAGP001237,RAW002202,exact_email,100,contacts.csv,567
+SAGP001238,RAW001508,exact_email,100,SAGP W pd.csv,12
+SAGP001238,RAW002406,exact_email,100,contacts.csv,771
+SAGP001239,RAW001509,exact_email,100,SAGP W pd.csv,13
+SAGP001239,RAW002492,exact_email,100,contacts.csv,857
 SAGP001240,RAW001510,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,14
 SAGP001240,RAW001569,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,22
 SAGP001240,RAW002537,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,902
-SAGP001241,RAW001512,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,16
-SAGP001241,RAW002790,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1155
+SAGP001241,RAW001512,exact_email,100,SAGP W pd.csv,16
+SAGP001241,RAW002790,exact_email,100,contacts.csv,1155
 SAGP001242,RAW001513,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,17
 SAGP001242,RAW001579,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,32
 SAGP001242,RAW002817,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1182
-SAGP001243,RAW001514,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,18
-SAGP001243,RAW002926,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1291
-SAGP001244,RAW001516,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,20
-SAGP001244,RAW003281,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,1646
-SAGP001245,RAW001518,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,22
-SAGP001245,RAW003335,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1700
-SAGP001246,RAW001519,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,23
-SAGP001246,RAW003349,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1714
-SAGP001247,RAW001520,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,24
-SAGP001247,RAW003366,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1731
-SAGP001248,RAW001521,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,25
-SAGP001248,RAW003409,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1774
-SAGP001249,RAW001524,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,28
-SAGP001249,RAW003521,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1886
-SAGP001250,RAW001526,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,30
-SAGP001250,RAW003721,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2086
-SAGP001251,RAW001527,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,31
-SAGP001251,RAW003850,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2215
-SAGP001252,RAW001528,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,32
-SAGP001252,RAW003879,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2244
-SAGP001253,RAW001529,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,33
-SAGP001253,RAW003895,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2260
-SAGP001254,RAW001530,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,34
-SAGP001254,RAW003938,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2303
-SAGP001255,RAW001531,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,35
-SAGP001255,RAW003962,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,2327
-SAGP001256,RAW001533,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,37
-SAGP001256,RAW004155,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2520
-SAGP001257,RAW001535,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,39
-SAGP001257,RAW004257,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2622
-SAGP001258,RAW001536,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,40
-SAGP001258,RAW004384,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2749
-SAGP001259,RAW001538,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,42
-SAGP001259,RAW004516,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2881
-SAGP001260,RAW001540,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,44
-SAGP001260,RAW004565,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2930
-SAGP001261,RAW001541,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,45
-SAGP001261,RAW001629,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,82
-SAGP001261,RAW001646,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,11
-SAGP001261,RAW001836,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,201
-SAGP001261,RAW002491,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,856
-SAGP001261,RAW004339,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2704
-SAGP001261,RAW004585,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2950
-SAGP001261,RAW004609,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2974
-SAGP001262,RAW001542,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,46
-SAGP001262,RAW004617,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2982
-SAGP001263,RAW001543,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,47
-SAGP001263,RAW004648,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3013
-SAGP001264,RAW001544,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,48
-SAGP001264,RAW004656,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3021
-SAGP001265,RAW001546,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,50
-SAGP001265,RAW004727,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3092
-SAGP001266,RAW001547,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,51
-SAGP001266,RAW004777,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3142
-SAGP001267,RAW001549,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,2
-SAGP001267,RAW001645,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,10
-SAGP001268,RAW001550,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,3
-SAGP001268,RAW001670,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,35
-SAGP001269,RAW001551,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,4
-SAGP001269,RAW001680,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,45
-SAGP001270,RAW001552,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,5
-SAGP001270,RAW001737,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,102
-SAGP001271,RAW001553,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,6
-SAGP001271,RAW001738,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,103
-SAGP001272,RAW001554,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,7
-SAGP001272,RAW001795,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,160
-SAGP001273,RAW001555,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,8
-SAGP001273,RAW001823,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,188
-SAGP001274,RAW001556,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,9
-SAGP001274,RAW001855,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,220
-SAGP001275,RAW001557,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,10
-SAGP001275,RAW001907,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,272
-SAGP001276,RAW001558,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,11
-SAGP001276,RAW001929,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,294
-SAGP001277,RAW001559,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,12
-SAGP001277,RAW001981,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,346
-SAGP001278,RAW001560,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,13
-SAGP001278,RAW002066,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,431
-SAGP001279,RAW001561,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,14
-SAGP001279,RAW002078,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,443
-SAGP001280,RAW001562,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,15
-SAGP001280,RAW002093,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,458
-SAGP001281,RAW001563,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,16
-SAGP001281,RAW002135,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,500
-SAGP001282,RAW001564,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,17
-SAGP001282,RAW002175,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,540
-SAGP001283,RAW001565,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,18
-SAGP001283,RAW002222,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,587
-SAGP001284,RAW001566,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,19
-SAGP001284,RAW002235,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,600
-SAGP001285,RAW001567,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,20
-SAGP001285,RAW002298,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,663
-SAGP001286,RAW001568,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,21
-SAGP001286,RAW002451,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,816
-SAGP001287,RAW001570,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,23
-SAGP001287,RAW002558,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,923
-SAGP001288,RAW001571,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,24
-SAGP001288,RAW002570,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,935
-SAGP001289,RAW001572,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,25
-SAGP001289,RAW002590,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,955
-SAGP001290,RAW001574,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,27
-SAGP001290,RAW002640,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1005
-SAGP001291,RAW001575,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,28
-SAGP001291,RAW002645,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1010
-SAGP001292,RAW001576,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,29
-SAGP001292,RAW002685,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1050
-SAGP001293,RAW001577,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,30
-SAGP001293,RAW002689,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1054
-SAGP001294,RAW001578,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,31
-SAGP001294,RAW002773,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1138
-SAGP001295,RAW001581,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,34
-SAGP001295,RAW002875,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1240
-SAGP001296,RAW001582,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,35
-SAGP001296,RAW002886,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1251
-SAGP001297,RAW001583,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,36
-SAGP001297,RAW002940,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1305
-SAGP001298,RAW001584,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,37
-SAGP001298,RAW002959,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1324
-SAGP001298,RAW002960,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1325
-SAGP001299,RAW001586,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,39
-SAGP001299,RAW003018,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1383
-SAGP001300,RAW001587,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,40
-SAGP001300,RAW003033,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1398
-SAGP001301,RAW001588,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,41
-SAGP001301,RAW003083,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1448
-SAGP001302,RAW001590,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,43
-SAGP001302,RAW003245,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1610
-SAGP001303,RAW001591,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,44
-SAGP001303,RAW003279,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1644
-SAGP001304,RAW001592,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,45
-SAGP001304,RAW003294,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1659
-SAGP001305,RAW001593,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,46
-SAGP001305,RAW003374,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1739
-SAGP001306,RAW001594,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,47
-SAGP001306,RAW003377,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1742
-SAGP001307,RAW001595,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,48
-SAGP001307,RAW003403,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1768
-SAGP001308,RAW001596,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,49
-SAGP001308,RAW003442,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1807
-SAGP001309,RAW001597,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,50
-SAGP001309,RAW003472,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1837
-SAGP001310,RAW001598,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,51
-SAGP001310,RAW003481,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1846
-SAGP001311,RAW001599,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,52
-SAGP001311,RAW003508,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1873
-SAGP001312,RAW001601,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,54
-SAGP001312,RAW003576,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1941
-SAGP001313,RAW001602,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,55
-SAGP001313,RAW003586,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1951
-SAGP001314,RAW001603,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,56
-SAGP001314,RAW003591,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1956
-SAGP001315,RAW001604,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,57
-SAGP001315,RAW003694,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2059
-SAGP001316,RAW001605,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,58
-SAGP001316,RAW003733,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2098
-SAGP001317,RAW001606,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,59
-SAGP001317,RAW003748,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2113
-SAGP001318,RAW001607,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,60
-SAGP001318,RAW003760,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2125
-SAGP001319,RAW001608,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,61
-SAGP001319,RAW003815,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2180
-SAGP001320,RAW001609,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,62
-SAGP001320,RAW003857,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2222
-SAGP001321,RAW001610,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,63
-SAGP001321,RAW003884,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2249
-SAGP001322,RAW001611,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,64
-SAGP001322,RAW003983,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2348
-SAGP001323,RAW001613,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,66
-SAGP001323,RAW004040,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2405
-SAGP001324,RAW001614,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,67
-SAGP001324,RAW004086,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2451
-SAGP001325,RAW001615,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,68
-SAGP001325,RAW004177,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2542
-SAGP001326,RAW001616,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,69
-SAGP001326,RAW004197,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2562
-SAGP001327,RAW001617,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,70
-SAGP001327,RAW004214,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2579
-SAGP001328,RAW001618,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,71
-SAGP001328,RAW004215,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2580
-SAGP001329,RAW001619,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,72
-SAGP001329,RAW004227,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2592
-SAGP001330,RAW001620,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,73
-SAGP001330,RAW004301,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2666
-SAGP001331,RAW001621,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,74
-SAGP001331,RAW004489,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2854
-SAGP001332,RAW001622,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,75
-SAGP001332,RAW004510,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2875
-SAGP001333,RAW001623,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,76
-SAGP001333,RAW004512,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2877
-SAGP001334,RAW001624,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,77
-SAGP001334,RAW004526,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2891
-SAGP001335,RAW001625,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,78
-SAGP001335,RAW004527,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2892
-SAGP001336,RAW001626,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,79
-SAGP001336,RAW004555,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2920
-SAGP001337,RAW001627,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,80
-SAGP001337,RAW004566,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2931
-SAGP001338,RAW001628,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,81
-SAGP001338,RAW004594,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2959
-SAGP001339,RAW001630,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,83
-SAGP001339,RAW004718,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3083
-SAGP001340,RAW001631,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,84
-SAGP001340,RAW004731,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3096
-SAGP001341,RAW001632,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,85
-SAGP001341,RAW004745,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3110
-SAGP001342,RAW001634,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,87
-SAGP001342,RAW004773,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3138
-SAGP001343,RAW001636,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,89
-SAGP001343,RAW004791,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3156
+SAGP001243,RAW001514,exact_email,100,SAGP W pd.csv,18
+SAGP001243,RAW002926,exact_email,100,contacts.csv,1291
+SAGP001244,RAW001516,exact_email,100,SAGP W pd.csv,20
+SAGP001244,RAW003281,exact_email,100,contacts.csv,1646
+SAGP001245,RAW001518,exact_email,100,SAGP W pd.csv,22
+SAGP001245,RAW003335,exact_email,100,contacts.csv,1700
+SAGP001246,RAW001519,exact_email,100,SAGP W pd.csv,23
+SAGP001246,RAW003349,exact_email,100,contacts.csv,1714
+SAGP001247,RAW001521,exact_email,100,SAGP W pd.csv,25
+SAGP001247,RAW003409,exact_email,100,contacts.csv,1774
+SAGP001248,RAW001524,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,28
+SAGP001248,RAW003521,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1886
+SAGP001249,RAW001526,exact_email,100,SAGP W pd.csv,30
+SAGP001249,RAW003721,exact_email,100,contacts.csv,2086
+SAGP001250,RAW001527,exact_email,100,SAGP W pd.csv,31
+SAGP001250,RAW003850,exact_email,100,contacts.csv,2215
+SAGP001251,RAW001528,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,32
+SAGP001251,RAW003879,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2244
+SAGP001252,RAW001529,exact_email,100,SAGP W pd.csv,33
+SAGP001252,RAW003895,exact_email,100,contacts.csv,2260
+SAGP001253,RAW001530,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,34
+SAGP001253,RAW003938,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2303
+SAGP001254,RAW001531,exact_email,100,SAGP W pd.csv,35
+SAGP001254,RAW003962,exact_email,100,contacts.csv,2327
+SAGP001255,RAW001533,exact_email,100,SAGP W pd.csv,37
+SAGP001255,RAW004155,exact_email,100,contacts.csv,2520
+SAGP001256,RAW001535,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,39
+SAGP001256,RAW004257,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2622
+SAGP001257,RAW001536,exact_email,100,SAGP W pd.csv,40
+SAGP001257,RAW004384,exact_email,100,contacts.csv,2749
+SAGP001258,RAW001538,exact_email,100,SAGP W pd.csv,42
+SAGP001258,RAW004516,exact_email,100,contacts.csv,2881
+SAGP001259,RAW001540,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,44
+SAGP001259,RAW004565,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2930
+SAGP001260,RAW001541,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,45
+SAGP001260,RAW001629,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,82
+SAGP001260,RAW001646,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,11
+SAGP001260,RAW001836,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,201
+SAGP001260,RAW002491,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,856
+SAGP001260,RAW004339,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2704
+SAGP001260,RAW004585,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2950
+SAGP001260,RAW004609,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2974
+SAGP001261,RAW001542,exact_email,100,SAGP W pd.csv,46
+SAGP001261,RAW004617,exact_email,100,contacts.csv,2982
+SAGP001262,RAW001543,exact_email,100,SAGP W pd.csv,47
+SAGP001262,RAW004648,exact_email,100,contacts.csv,3013
+SAGP001263,RAW001544,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,SAGP W pd.csv,48
+SAGP001263,RAW004656,multiple_reasons: exact_email; exact_name_institution; exact_name_only,100,contacts.csv,3021
+SAGP001264,RAW001546,exact_email,100,SAGP W pd.csv,50
+SAGP001264,RAW004727,exact_email,100,contacts.csv,3092
+SAGP001265,RAW001547,multiple_reasons: exact_email; exact_name_only,100,SAGP W pd.csv,51
+SAGP001265,RAW004776,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3141
+SAGP001265,RAW004777,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3142
+SAGP001266,RAW001549,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,2
+SAGP001266,RAW001645,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,10
+SAGP001267,RAW001550,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,3
+SAGP001267,RAW001670,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,35
+SAGP001268,RAW001551,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,4
+SAGP001268,RAW001680,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,45
+SAGP001269,RAW001552,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,5
+SAGP001269,RAW001737,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,102
+SAGP001270,RAW001553,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,6
+SAGP001270,RAW001738,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,103
+SAGP001271,RAW001554,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,7
+SAGP001271,RAW001795,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,160
+SAGP001272,RAW001555,exact_email,100,SAGP World Other.csv,8
+SAGP001272,RAW001823,exact_email,100,contacts.csv,188
+SAGP001273,RAW001556,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,9
+SAGP001273,RAW001855,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,220
+SAGP001274,RAW001557,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,10
+SAGP001274,RAW001907,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,272
+SAGP001275,RAW001558,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,11
+SAGP001275,RAW001929,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,294
+SAGP001276,RAW001559,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,12
+SAGP001276,RAW001981,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,346
+SAGP001277,RAW001560,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,13
+SAGP001277,RAW002066,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,431
+SAGP001278,RAW001561,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,14
+SAGP001278,RAW002078,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,443
+SAGP001279,RAW001562,exact_email,100,SAGP World Other.csv,15
+SAGP001279,RAW002093,exact_email,100,contacts.csv,458
+SAGP001280,RAW001563,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,16
+SAGP001280,RAW002135,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,500
+SAGP001281,RAW001564,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,17
+SAGP001281,RAW002175,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,540
+SAGP001282,RAW001565,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,18
+SAGP001282,RAW002222,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,587
+SAGP001283,RAW001566,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,19
+SAGP001283,RAW002235,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,600
+SAGP001284,RAW001567,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,20
+SAGP001284,RAW002298,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,663
+SAGP001285,RAW001568,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,21
+SAGP001285,RAW002451,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,816
+SAGP001286,RAW001570,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,23
+SAGP001286,RAW002558,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,923
+SAGP001287,RAW001571,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,24
+SAGP001287,RAW002570,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,935
+SAGP001288,RAW001572,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,25
+SAGP001288,RAW002590,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,955
+SAGP001289,RAW001574,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,27
+SAGP001289,RAW002640,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1005
+SAGP001290,RAW001575,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,28
+SAGP001290,RAW002645,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1010
+SAGP001291,RAW001576,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,29
+SAGP001291,RAW002685,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1050
+SAGP001292,RAW001577,exact_email,100,SAGP World Other.csv,30
+SAGP001292,RAW002689,exact_email,100,contacts.csv,1054
+SAGP001293,RAW001578,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,31
+SAGP001293,RAW002773,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1138
+SAGP001294,RAW001581,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,34
+SAGP001294,RAW002875,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1240
+SAGP001295,RAW001582,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,35
+SAGP001295,RAW002886,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1251
+SAGP001296,RAW001583,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,36
+SAGP001296,RAW002940,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1305
+SAGP001297,RAW001584,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,37
+SAGP001297,RAW002959,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1324
+SAGP001297,RAW002960,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1325
+SAGP001298,RAW001586,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,39
+SAGP001298,RAW003018,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1383
+SAGP001299,RAW001587,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,40
+SAGP001299,RAW003033,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1398
+SAGP001300,RAW001588,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,41
+SAGP001300,RAW003083,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1448
+SAGP001301,RAW001590,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,43
+SAGP001301,RAW003245,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1610
+SAGP001302,RAW001591,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,44
+SAGP001302,RAW003279,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1644
+SAGP001303,RAW001592,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,45
+SAGP001303,RAW003294,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1659
+SAGP001304,RAW001593,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,46
+SAGP001304,RAW003374,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1739
+SAGP001305,RAW001594,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,47
+SAGP001305,RAW003377,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1742
+SAGP001306,RAW001595,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,48
+SAGP001306,RAW003403,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1768
+SAGP001307,RAW001596,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,49
+SAGP001307,RAW003442,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1807
+SAGP001308,RAW001597,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,50
+SAGP001308,RAW003472,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1837
+SAGP001309,RAW001598,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,51
+SAGP001309,RAW003481,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1846
+SAGP001310,RAW001599,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,52
+SAGP001310,RAW003508,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1873
+SAGP001311,RAW001601,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,54
+SAGP001311,RAW003576,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1941
+SAGP001312,RAW001602,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,55
+SAGP001312,RAW003586,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,1951
+SAGP001313,RAW001603,exact_email,100,SAGP World Other.csv,56
+SAGP001313,RAW003591,exact_email,100,contacts.csv,1956
+SAGP001314,RAW001604,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,57
+SAGP001314,RAW003694,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2059
+SAGP001315,RAW001605,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,58
+SAGP001315,RAW003733,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2098
+SAGP001316,RAW001606,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,59
+SAGP001316,RAW003748,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2113
+SAGP001317,RAW001607,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,60
+SAGP001317,RAW003760,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2125
+SAGP001318,RAW001608,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,61
+SAGP001318,RAW003815,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2180
+SAGP001319,RAW001609,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,62
+SAGP001319,RAW003857,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2222
+SAGP001320,RAW001610,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,63
+SAGP001320,RAW003884,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2249
+SAGP001321,RAW001611,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,64
+SAGP001321,RAW003983,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2348
+SAGP001322,RAW001613,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,66
+SAGP001322,RAW004040,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2405
+SAGP001323,RAW001614,exact_email,100,SAGP World Other.csv,67
+SAGP001323,RAW004086,exact_email,100,contacts.csv,2451
+SAGP001324,RAW001615,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,68
+SAGP001324,RAW004177,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2542
+SAGP001325,RAW001616,exact_email,100,SAGP World Other.csv,69
+SAGP001325,RAW004197,exact_email,100,contacts.csv,2562
+SAGP001326,RAW001617,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,70
+SAGP001326,RAW004214,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2579
+SAGP001327,RAW001618,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,71
+SAGP001327,RAW004215,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2580
+SAGP001328,RAW001619,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,72
+SAGP001328,RAW004227,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2592
+SAGP001329,RAW001620,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,73
+SAGP001329,RAW004301,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2666
+SAGP001330,RAW001621,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,74
+SAGP001330,RAW004489,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2854
+SAGP001331,RAW001622,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,75
+SAGP001331,RAW004510,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2875
+SAGP001332,RAW001623,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,76
+SAGP001332,RAW004512,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2877
+SAGP001333,RAW001624,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,77
+SAGP001333,RAW004526,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2891
+SAGP001334,RAW001625,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,78
+SAGP001334,RAW004527,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2892
+SAGP001335,RAW001626,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,79
+SAGP001335,RAW004555,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2920
+SAGP001336,RAW001627,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,80
+SAGP001336,RAW004566,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2931
+SAGP001337,RAW001628,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,81
+SAGP001337,RAW004594,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,2959
+SAGP001338,RAW001630,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,83
+SAGP001338,RAW004718,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3083
+SAGP001339,RAW001631,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,84
+SAGP001339,RAW004731,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3096
+SAGP001340,RAW001632,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,85
+SAGP001340,RAW004745,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3110
+SAGP001341,RAW001634,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,87
+SAGP001341,RAW004773,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3138
+SAGP001342,RAW001636,multiple_reasons: exact_email; exact_name_only,100,SAGP World Other.csv,89
+SAGP001342,RAW004791,multiple_reasons: exact_email; exact_name_only,100,contacts.csv,3156
 SAGP001481,RAW002614,exact_email,100,contacts.csv,979
 SAGP001481,RAW004472,exact_email,100,contacts.csv,2837
-SAGP001634,RAW003783,exact_email,100,contacts.csv,2148
-SAGP001634,RAW004480,exact_email,100,contacts.csv,2845
-SAGP001640,RAW003818,exact_email,100,contacts.csv,2183
-SAGP001640,RAW004723,exact_email,100,contacts.csv,3088
+SAGP001635,RAW003783,exact_email,100,contacts.csv,2148
+SAGP001635,RAW004480,exact_email,100,contacts.csv,2845
+SAGP001641,RAW003818,exact_email,100,contacts.csv,2183
+SAGP001641,RAW004723,exact_email,100,contacts.csv,3088

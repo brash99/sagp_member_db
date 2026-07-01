@@ -10,7 +10,12 @@ def first_nonblank(row, *fields):
 
 
 def normalize_row(row, raw_index):
-    parsed = parse_name(row.get("First Name"), row.get("Middle Name"), row.get("Last Name"))
+    parsed = parse_name(
+        row.get("First Name"),
+        row.get("Middle Name"),
+        row.get("Last Name"),
+        source_file=row.get("SourceFile", ""),
+    )
     suffix = clean(parsed.get("Suffix") or row.get("Name Suffix"))
     first = clean(parsed.get("FirstName"))
     middle = clean(parsed.get("MiddleName"))
@@ -45,8 +50,9 @@ def normalize_row(row, raw_index):
         "NameKey": name_key(first, last),
         "EmailKey": clean(email).lower(),
         "InstitutionKey": clean(institution).lower(),
-        "NeedsReview": "",
+        "NeedsReview": clean(parsed.get("NeedsReview")),
     }
+
 
 def normalize_all(raw_rows):
     return [normalize_row(row, i) for i, row in enumerate(raw_rows, start=1)]

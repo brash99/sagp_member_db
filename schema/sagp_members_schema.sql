@@ -1,25 +1,50 @@
 PRAGMA foreign_keys = ON;
+CREATE TABLE members (
 
-CREATE TABLE IF NOT EXISTS members (
     person_id TEXT PRIMARY KEY,
+
     display_name TEXT NOT NULL,
+
+    title TEXT,
+
     first_name TEXT,
     middle_name TEXT,
     last_name TEXT,
     suffix TEXT,
+
     institution TEXT,
-    title TEXT,
+
     primary_email TEXT,
+    secondary_email TEXT,
+
     phone TEXT,
+
+    address1 TEXT,
+    address2 TEXT,
+
     city TEXT,
     state_province TEXT,
     postal_code TEXT,
     country TEXT,
+
+    region TEXT,
+
+    membership_status TEXT,
+
     original_membership_code TEXT,
+
+    member_since TEXT,
+
+    last_paid_year INTEGER,
+
     active INTEGER NOT NULL DEFAULT 1,
+
     notes TEXT,
+
     created_at TEXT NOT NULL,
+
     updated_at TEXT NOT NULL
+
 );
 
 CREATE TABLE IF NOT EXISTS source_appearances (

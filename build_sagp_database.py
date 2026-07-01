@@ -17,9 +17,20 @@ NORMALIZED_FIELDS = [
     "FirstName", "MiddleName", "LastName", "Suffix", "DisplayName",
     "OriginalMembershipCode", "Institution", "Title", "PrimaryEmail", "Phone",
     "Address", "City", "StateProvince", "PostalCode", "Country", "Notes",
-    "NameKey", "EmailKey", "InstitutionKey", "NeedsReview"
+    "NameKey", "EmailKey", "InstitutionKey", "InclusionBasis", "NeedsReview"
 ]
-MASTER_FIELDS = ["PersonID"] + NORMALIZED_FIELDS + ["MergedRecordCount", "MergeConfidence", "MergeReason", "AppearsIn", "CodeHistory"]
+MASTER_FIELDS = ["PersonID"] + NORMALIZED_FIELDS + [
+    "SourceCount", "UniqueSourceCount", "RecordConfidence", "ReviewStatus",
+    "MergedRecordCount", "MergeConfidence", "MergeReason",
+    "AppearsIn", "CodeHistory", "InclusionBasisHistory",
+]
+PUBLIC_MASTER_FIELDS = [
+    "PersonID", "DisplayName", "FirstName", "MiddleName", "LastName", "Suffix",
+    "Institution", "Title", "PrimaryEmail", "Phone",
+    "City", "StateProvince", "PostalCode", "Country",
+    "OriginalMembershipCode", "CodeHistory", "AppearsIn",
+]
+
 REVIEW_FIELDS = ["ReviewGroup", "SuggestedReason", "SuggestedConfidence", "CurrentPersonID"] + NORMALIZED_FIELDS
 MERGE_FIELDS = ["PersonID", "RawRecordID", "Reason", "Confidence", "SourceFile", "SourceRow"]
 EXCLUDED_CONTACT_FIELDS = ["RawRecordID", "SourceFile", "SourceRow", "DisplayName", "PrimaryEmail", "Institution", "ExclusionReason"]
@@ -48,6 +59,7 @@ def main():
     workbook_path = write_workbook(
         OUTPUT_DIR / "SAGP_Reconciliation.xlsx",
         master_rows=master,
+        public_master_rows=master,
         normalized_rows=normalized,
         duplicate_review_rows=duplicate_review,
         merge_log_rows=merge_log,
@@ -55,6 +67,7 @@ def main():
         code_summary_rows=code_rows,
         report_text=report_text,
         master_fields=MASTER_FIELDS,
+        public_master_fields=PUBLIC_MASTER_FIELDS,
         normalized_fields=NORMALIZED_FIELDS,
         review_fields=REVIEW_FIELDS,
         merge_fields=MERGE_FIELDS,

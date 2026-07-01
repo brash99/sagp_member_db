@@ -64,6 +64,8 @@ def filter_contacts_scope(raw_rows: Sequence[Row], normalized_rows: Sequence[Row
     for raw, norm in zip(raw_rows, normalized_rows):
         source = _text(norm.get("SourceFile") or raw.get("SourceFile"))
         if source != CONTACTS_FILENAME:
+            norm = dict(norm)
+            norm["InclusionBasis"] = "SAGP source file"
             kept_raw.append(raw)
             kept_norm.append(norm)
             continue
@@ -73,6 +75,15 @@ def filter_contacts_scope(raw_rows: Sequence[Row], normalized_rows: Sequence[Row
         name_match = _text(norm.get("NameKey")).strip().lower() in name_keys if norm.get("NameKey") else False
 
         if mentions_sagp or email_match or name_match:
+            norm = dict(norm)
+            basis = []
+            if mentions_sagp:
+                basis.append("contacts.csv mentions SAGP")
+            if email_match:
+                basis.append("contacts.csv email matches SAGP source")
+            if name_match:
+                basis.append("contacts.csv name matches SAGP source")
+            norm["InclusionBasis"] = "; ".join(basis)
             kept_raw.append(raw)
             kept_norm.append(norm)
         else:

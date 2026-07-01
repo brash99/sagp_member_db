@@ -153,6 +153,7 @@ def write_workbook(
     output_path: str | Path,
     *,
     master_rows: Sequence[Row],
+    public_master_rows: Sequence[Row] | None = None,
     normalized_rows: Sequence[Row],
     duplicate_review_rows: Sequence[Row],
     merge_log_rows: Sequence[Row],
@@ -160,6 +161,7 @@ def write_workbook(
     code_summary_rows: Sequence[Row],
     report_text: str,
     master_fields: Sequence[str],
+    public_master_fields: Sequence[str] | None = None,
     normalized_fields: Sequence[str],
     review_fields: Sequence[str],
     merge_fields: Sequence[str],
@@ -175,8 +177,14 @@ def write_workbook(
     ws.title = "Report"
     _write_report_sheet(ws, report_text)
 
+    if public_master_rows is None:
+        public_master_rows = master_rows
+    if public_master_fields is None:
+        public_master_fields = master_fields
+
     sheets = [
-        ("Master", master_rows, master_fields),
+        ("Master", public_master_rows, public_master_fields),
+        ("MasterAudit", master_rows, master_fields),
         ("DuplicateReview", duplicate_review_rows, review_fields),
         ("MergeLog", merge_log_rows, merge_fields),
         ("SourceSummary", source_summary_rows, ["SourceFile", "SourceRegion", "ImportedRows"]),

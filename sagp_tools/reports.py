@@ -20,7 +20,7 @@ def data_quality_text(raw_rows, normalized_rows, master, dup_review, excluded_co
     missing_inst = sum(1 for r in master if not r.get("Institution"))
     missing_name = sum(1 for r in master if not r.get("DisplayName"))
     return "\n".join([
-        "SAGP Reconciliation v0.1 Data Quality Report",
+        "SAGP Reconciliation v0.5 Data Quality Report",
         "============================================",
         f"SAGP-scope raw records kept: {len(raw_rows)}",
         f"Normalized SAGP-scope records: {len(normalized_rows)}",
@@ -38,5 +38,8 @@ def data_quality_text(raw_rows, normalized_rows, master, dup_review, excluded_co
         "- contacts.csv is treated as a full personal Google Contacts export; rows are kept only if they mention SAGP or match a SAGP-source person by exact email/name.",
         "- Exact email duplicates are merged automatically.",
         "- Exact normalized name + institution duplicates are merged automatically.",
+        "- Master is the user-facing SAGP list; MasterAudit contains provenance, confidence, and raw diagnostic fields.",
+        "- RecordConfidence estimates whether the row belongs in the SAGP database.",
+        "- MergeConfidence is blank for single-record people because no merge was attempted.",
         "- Exact-name-only matches across separate PersonIDs are exported for human review.",
     ])

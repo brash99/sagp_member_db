@@ -15,7 +15,8 @@ NORMALIZED_FIELDS = [
     "RawRecordID", "SourceFile", "SourceRow", "SourceRegion",
     "OriginalFirstName", "OriginalMiddleName", "OriginalLastName",
     "FirstName", "MiddleName", "LastName", "Suffix", "DisplayName",
-    "OriginalMembershipCode", "Institution", "Title", "PrimaryEmail", "Phone",
+    "OriginalMembershipCode", "MembershipStatus", "LastPaidYear",
+    "Institution", "Title", "PrimaryEmail", "Phone",
     "Address", "City", "StateProvince", "PostalCode", "Country", "Notes",
     "NameKey", "EmailKey", "InstitutionKey", "InclusionBasis", "NeedsReview"
 ]
@@ -27,6 +28,7 @@ MASTER_FIELDS = ["PersonID"] + NORMALIZED_FIELDS + [
 PUBLIC_MASTER_FIELDS = [
     "PersonID", "DisplayName", "FirstName", "MiddleName", "LastName", "Suffix",
     "Institution", "Title", "PrimaryEmail", "Phone",
+    "MembershipStatus", "LastPaidYear",
     "City", "StateProvince", "PostalCode", "Country",
     "OriginalMembershipCode", "CodeHistory", "AppearsIn",
 ]

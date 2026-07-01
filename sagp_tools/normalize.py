@@ -1,4 +1,5 @@
 from .names import clean, parse_name, display_name, name_key
+from .membership_codes import interpret_membership_codes
 
 
 def first_nonblank(row, *fields):
@@ -23,6 +24,8 @@ def normalize_row(row, raw_index):
     email = first_nonblank(row, "E-mail 1 - Value", "E-mail 2 - Value", "E-mail 3 - Value")
     institution = first_nonblank(row, "Organization Name")
     phone = first_nonblank(row, "Phone 1 - Value", "Phone 2 - Value")
+    membership_status, last_paid_year = interpret_membership_codes([parsed.get("OriginalMembershipCode", "")])
+
     return {
         "RawRecordID": f"RAW{raw_index:06d}",
         "SourceFile": row.get("SourceFile", ""),
@@ -37,6 +40,8 @@ def normalize_row(row, raw_index):
         "Suffix": suffix,
         "DisplayName": display_name(first, middle, last, suffix),
         "OriginalMembershipCode": parsed.get("OriginalMembershipCode", ""),
+        "MembershipStatus": membership_status,
+        "LastPaidYear": last_paid_year or "",
         "Institution": institution,
         "Title": first_nonblank(row, "Organization Title"),
         "PrimaryEmail": email,

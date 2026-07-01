@@ -1,5 +1,6 @@
 from collections import defaultdict
 from .names import clean
+from .membership_codes import interpret_membership_codes
 from .config import (
     AUTO_MERGE_POSSIBLE_DUPLICATES,
     AUTO_MERGE_POSSIBLE_DUPLICATES_MIN_CONFIDENCE,
@@ -96,6 +97,10 @@ def _unique_join(records, field):
     return "; ".join(sorted({clean(r.get(field, "")) for r in records if clean(r.get(field, ""))}))
 
 
+def _unique_values(records, field):
+    return sorted({clean(r.get(field, "")) for r in records if clean(r.get(field, ""))})
+
+
 def _record_confidence(records, merge_reason=None, merge_confidence=None):
     """Estimate confidence that a master row belongs in the SAGP database.
 
@@ -152,7 +157,11 @@ def _apply_master_metadata(canonical, records, *, merge_reason, merge_confidence
     canonical["MergeConfidence"] = "" if source_count == 1 else merge_confidence
     canonical["MergeReason"] = merge_reason if source_count > 1 else "single_record"
     canonical["AppearsIn"] = _unique_join(records, "SourceFile")
-    canonical["CodeHistory"] = _unique_join(records, "OriginalMembershipCode")
+    code_values = _unique_values(records, "OriginalMembershipCode")
+    membership_status, last_paid_year = interpret_membership_codes(code_values)
+    canonical["MembershipStatus"] = membership_status
+    canonical["LastPaidYear"] = last_paid_year or ""
+    canonical["CodeHistory"] = "; ".join(code_values)
     canonical["InclusionBasisHistory"] = _unique_join(records, "InclusionBasis")
     canonical["RecordConfidence"] = _record_confidence(records, merge_reason, merge_confidence)
     canonical["ReviewStatus"] = _review_status(source_count, merge_reason, canonical["RecordConfidence"])

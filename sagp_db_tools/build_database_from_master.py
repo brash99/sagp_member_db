@@ -41,6 +41,8 @@ REQUIRED_COLUMNS = [
     "PostalCode",
     "Country",
     "OriginalMembershipCode",
+    "MembershipStatus",
+    "LastPaidYear",
     "CodeHistory",
     "AppearsIn",
 ]
@@ -61,6 +63,8 @@ COLUMN_TO_DB = {
     "PostalCode": "postal_code",
     "Country": "country",
     "OriginalMembershipCode": "original_membership_code",
+    "MembershipStatus": "membership_status",
+    "LastPaidYear": "last_paid_year",
 }
 
 
@@ -183,6 +187,11 @@ def build_database(
 
         for row in rows:
             record = {db_col: row.get(xlsx_col) for xlsx_col, db_col in COLUMN_TO_DB.items()}
+            if record.get("last_paid_year") is not None:
+                try:
+                    record["last_paid_year"] = int(record["last_paid_year"])
+                except (TypeError, ValueError):
+                    record["last_paid_year"] = None
             record["created_at"] = now
             record["updated_at"] = now
             record["active"] = 1
@@ -200,12 +209,14 @@ def build_database(
             INSERT INTO members (
                 person_id, display_name, first_name, middle_name, last_name, suffix,
                 institution, title, primary_email, phone, city, state_province,
-                postal_code, country, original_membership_code, active, notes,
+                postal_code, country, membership_status, original_membership_code,
+                last_paid_year, active, notes,
                 created_at, updated_at
             ) VALUES (
                 :person_id, :display_name, :first_name, :middle_name, :last_name, :suffix,
                 :institution, :title, :primary_email, :phone, :city, :state_province,
-                :postal_code, :country, :original_membership_code, :active, :notes,
+                :postal_code, :country, :membership_status, :original_membership_code,
+                :last_paid_year, :active, :notes,
                 :created_at, :updated_at
             )
             """,

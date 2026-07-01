@@ -1,4 +1,5 @@
 import re
+from .membership_codes import normalize_membership_code
 
 CODE_RE = re.compile(r"^\s*([0-9]{1,2}[A-Za-z]?)\s*$")
 TRAILING_CODE_RE = re.compile(r"^(.*?)\s+([0-9]{1,2}[A-Za-z]?)\s*$")
@@ -21,12 +22,12 @@ def strip_trailing_code(value):
     if not v:
         return "", ""
     if is_code(v):
-        return "", v
+        return "", normalize_membership_code(v)
     match = TRAILING_CODE_RE.match(v)
     if match:
         text, code = clean(match.group(1)), clean(match.group(2))
         if text:
-            return text, code
+            return text, normalize_membership_code(code)
     return v, ""
 
 

@@ -84,3 +84,8 @@ If App 1 changes the `Master` sheet format later, update `REQUIRED_COLUMNS` and 
 ## Notes for App 3
 
 The GUI should edit the SQLite database, not the generated workbook.  The first App 3 screen can be built almost entirely from the `members` table, while the provenance/history panels can use `source_appearances` and `membership_code_history`.
+
+
+## Contract freeze
+
+See `docs/SAGP_CONTRACTS.md` for the frozen App 1 -> App 2 workbook contract and App 2 -> App 3 SQLite contract.
